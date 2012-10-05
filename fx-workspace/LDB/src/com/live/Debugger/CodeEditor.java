@@ -30,7 +30,11 @@ public class CodeEditor extends StackPane {
     "  <script src=\"http://codemirror.net/mode/clike/clike.js\"></script>" +
     "</head>" +
     "<body>" +
-    "<style type=\"text/css\"> .test {background-color:#b0c4de !important;} .test2 {background-color:#a0c4de !important;}</style>" +
+    "<style type=\"text/css\"> " +
+    ".completedLine {background-color:#98FB98 !important;} " +
+    ".currentLine {background-color:#FFFF99 !important;}" +
+    ".newLine {background-color:#ECC3BF !important;}" +
+    "</style>" +
     "<form><textarea id=\"code\" name=\"code\">\n" +
     "${code}" +
     "</textarea></form>" +
@@ -39,7 +43,7 @@ public class CodeEditor extends StackPane {
     "    lineNumbers: true," +
     "    matchBrackets: true," +
     "    mode: \"text/x-java\"" +
-    "  }); editor.setLineClass(5, null, 'test'); editor.setLineClass(1, null, 'test2');" +
+    "  });" +
     "function test() {editor.setLineClass(8, null, 'test2');} </script>" +
     "</body>" +
     "</html>";
@@ -70,11 +74,11 @@ public class CodeEditor extends StackPane {
    * Create a new code editor.
    * @param editingCode the initial code to be edited in the code editor.
    */
-  CodeEditor(String editingCode) {
+  CodeEditor(String editingCode, int width, int height) {
     this.editingCode = editingCode;
 
-    webview.setPrefSize(650, 325);
-    webview.setMinSize(650, 325);
+    webview.setPrefSize(width, height);
+    webview.setMinSize(width, height);
     webview.getEngine().loadContent(applyEditingTemplate());
 //    webview.getEngine().executeScript("editor.setLineClass(3, null,\"test\")");
 

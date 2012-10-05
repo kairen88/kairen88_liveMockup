@@ -1,0 +1,108 @@
+package com.live.Debugger;
+
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
+import javafx.concurrent.Worker.State;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.StackPane;
+import javafx.scene.shape.Rectangle;
+
+public class CodeWindow2 {
+	
+	private CodeEditor editor;
+	private DraggableNode codeWindowContainer;
+	private StackPane codeWindowSP;
+	private int currentExecutionLine = 0;
+	private int lineCount = -1;
+	
+	public CodeWindow2(String editingCode) {
+		//create code window container
+		codeWindowContainer = new DraggableNode();
+		//initialize codeMirror editor
+		editor = new CodeEditor(editingCode);
+		
+		//creating code window background
+		Rectangle codeWindowBackground = new Rectangle(700, 400);
+		javafx.scene.paint.Paint codeMirrorBackgroundColor = javafx.scene.paint.Paint.valueOf("CCCCCC");
+		codeWindowBackground.setFill(codeMirrorBackgroundColor);
+		codeWindowBackground.setArcHeight(15);
+		codeWindowBackground.setArcWidth(15);
+		
+		//creating stack pane to stack elements in code window
+		codeWindowSP = new StackPane();
+		//add editor in a new pane
+		Pane eidtorPane = new Pane();
+		eidtorPane.getChildren().add(editor);
+		//add elements to code window stack pane
+		codeWindowSP.getChildren().add(codeWindowBackground);
+		codeWindowSP.getChildren().add(eidtorPane);
+//				codeWindowSP.setStyle("-fx-background-color: cornsilk; -fx-padding: 10;");
+		//add stack pane to draggable node container
+		codeWindowContainer.getChildren().add(codeWindowSP);
+		
+		//add change listener to check when webform is loaded, then run scripts		
+		editor.webview.getEngine().getLoadWorker().stateProperty().addListener(
+		        new ChangeListener<State>() {
+		            public void changed(ObservableValue ov, State oldState, State newState) {
+		                if (newState == State.SUCCEEDED) {
+		                	//run scripts when webform loaded
+		                	getCodeLineCount();
+		                }
+		            }
+		        });
+	}
+	
+	//public methods-----------------------------------------------------------
+	
+	//returns the root/container node for the code window which is a draggable node
+	public DraggableNode getRootNode()
+	{
+		return codeWindowContainer;	
+	}
+	
+	//sets the class for the line number indecated to completedLine which styles it green
+	public void setLineColorToCompleted(int lineNum)
+	{
+		editor.webview.getEngine().executeScript("editor.setLineClass(" + String.valueOf(lineNum) + ", null, 'completedLine');");
+	}
+	
+	//return current execution line
+	public int getCurrentExecutionLine()
+	{
+		return currentExecutionLine;
+	}
+	
+	//sets current execution line
+	public void setCurrentExecutionLine(int newLineNum)
+	{
+		this.currentExecutionLine = newLineNum ;
+	}
+	
+	//increment the current execution line by 1
+	public void incrementCurrentExecutionLine()
+	{
+		this.currentExecutionLine += 1;
+	}
+	
+	//decrement the current execution line by 1
+	public void decrementCurrentExecutionLine()
+	{
+		this.currentExecutionLine -= 1;
+	}
+	
+	public int getLineCount()
+	{
+			return lineCount;
+	}
+	
+	//private helper methods-----------------------------------------------------------
+	
+	//returns the line count for the current code in the editor
+	private void getCodeLineCount()
+	{
+		Object codeLineCount = editor.webview.getEngine().executeScript("editor.lineCount();");
+		lineCount= (int) codeLineCount;
+		System.out.println(lineCount);
+	}
+
+}

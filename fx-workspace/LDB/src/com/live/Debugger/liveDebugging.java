@@ -33,7 +33,7 @@ import javafx.stage.Stage;
 public class liveDebugging extends Application {
 	
 	private Parent root = null;
-	CodeWindow currentCodeWindow = null;
+//	CodeWindow currentCodeWindow = null;
 	//0 represents no line executed, 1st line is 1, current code display list starts from 0 so need to + 1
 	int currentExecutionLine = 0; 
 	//for testing
@@ -41,7 +41,10 @@ public class liveDebugging extends Application {
 	CodeWindow CodeWindow2 = null;
 	int currentWindowIdx = 0;
 	
-	CodeEditor editor ;
+	CodeWindow2 editor ;
+	ArrayList<CodeWindow2> codeWindowAry ;
+	CodeWindow2 currentCodeWindow;
+	int codeWindowIdx = 0;
 	
 	 static final private String editingCode =
 			    "import javafx.application.Application;\n" +
@@ -73,29 +76,29 @@ public class liveDebugging extends Application {
 		root = FXMLLoader.load(getClass().getClassLoader().getResource("LDB_fxml.fxml"));
 
 
-		CodeWindow testWin = new CodeWindow();
-		testWin.setCodeStack(getArray());
-		
-		addDraggableElementToRoot(testWin.getDraggableNode());
-		testWin.relocate(20, 10);
-//		testWin.setSize(400, 180);		
-        
-        //testing
-        CodeWindow1 = testWin;
-        
-        //setting code window as currentCodeWindow
-        setCurrentCodeWindow(testWin);        
-//-------------------------------
-        CodeWindow testWin2 = new CodeWindow();
-		testWin2.setCodeStack(getArray());
-		
-		addDraggableElementToRoot(testWin2.getDraggableNode());
-		testWin2.relocate(20, 230);
-//		testWin2.setSize(400, 180);
-		
-        
-        //testing
-        CodeWindow2 = testWin2;
+//		CodeWindow testWin = new CodeWindow();
+//		testWin.setCodeStack(getArray());
+//		
+//		addDraggableElementToRoot(testWin.getDraggableNode());
+//		testWin.relocate(20, 10);
+////		testWin.setSize(400, 180);		
+//        
+//        //testing
+//        CodeWindow1 = testWin;
+//        
+//        //setting code window as currentCodeWindow
+//        setCurrentCodeWindow(testWin);        
+////-------------------------------
+//        CodeWindow testWin2 = new CodeWindow();
+//		testWin2.setCodeStack(getArray());
+//		
+//		addDraggableElementToRoot(testWin2.getDraggableNode());
+//		testWin2.relocate(20, 230);
+////		testWin2.setSize(400, 180);
+//		
+//        
+//        //testing
+//        CodeWindow2 = testWin2;
 //---------------------------------
         int numberOfTicks = 30;
         double naviBarHeight = 30.0;
@@ -157,29 +160,21 @@ public class liveDebugging extends Application {
 		addElementToRoot(naviBar);
 //-----------------------------------      
 		
-		//testing out codemirror code editor
-		DraggableNode codeMirror = new DraggableNode();
-		editor = new CodeEditor(editingCode);
+//		//testing out codemirror code editor
+		codeWindowAry = new ArrayList<CodeWindow2>();
 		
-		Rectangle codeMirrorBackground = new Rectangle(700, 400);
-		javafx.scene.paint.Paint codeMirrorBackgroundColor = javafx.scene.paint.Paint.valueOf("CCCCCC");
-		codeMirrorBackground.setFill(codeMirrorBackgroundColor);
-		codeMirrorBackground.setArcHeight(15);
-		codeMirrorBackground.setArcWidth(15);
+		//adding 1st code window setting it as current
+		editor = new CodeWindow2(editingCode, 660, 345);
+		addDraggableElementToRoot(editor.getRootNode());
+		codeWindowAry.add(editor);
 		
-		StackPane codeMirrorSP = new StackPane();
-		Pane pane = new Pane();
-		pane.getChildren().add(editor);
-		codeMirrorSP.getChildren().add(codeMirrorBackground);
-		codeMirrorSP.getChildren().add(pane);
-		codeMirrorSP.setStyle("-fx-background-color: cornsilk; -fx-padding: 10;");
+		currentCodeWindow = editor;
 		
-		editor.relocate(20, 20);
-//		editor.webview.getEngine().executeScript("editor.setLineClass(5, null, 'test');");
+//		adding 2nd code window to ary, setting code window below min width and height
+		editor = new CodeWindow2(editingCode, 200, 150);
+		addDraggableElementToRoot(editor.getRootNode());
+		codeWindowAry.add(editor);
 		
-		
-		codeMirror.getChildren().add(codeMirrorSP);
-		addDraggableElementToRoot(codeMirror);
 		
         initializeElementControl();  	
         
@@ -271,7 +266,7 @@ public class liveDebugging extends Application {
     
     private void setCurrentCodeWindow(CodeWindow codeWindow)
     {
-    	currentCodeWindow = codeWindow;
+//    	currentCodeWindow = codeWindow;
     }
     
     private void initializeElementControl()
@@ -281,20 +276,19 @@ public class liveDebugging extends Application {
         
     	nextBtn.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
-            	
-	            	currentCodeWindow.incrementCurrentExecutionLine();
+        		if(currentCodeWindow.getCurrentExecutionLine() < currentCodeWindow.getLineCount())
+        		{            	
+        			//increment current exe line
+        			currentCodeWindow.incrementCurrentExecutionLine();
 	            	//set current line to yellow
-	            	VBox codeStack = currentCodeWindow.getCodeStack();
-	            	codeStack.getChildren().get(currentCodeWindow.getCurrentExecutionLine() - 1).setStyle("-fx-background-color: #FFFF99");
-	
-	                if(currentCodeWindow.getCurrentExecutionLine() > 1)
+	            	currentCodeWindow.setLineColorToCurrent(currentCodeWindow.getCurrentExecutionLine() - 1);
+	            	
+	            	if(currentCodeWindow.getCurrentExecutionLine() > 1)
 	                	//set previous line to green
-	                	codeStack.getChildren().get(currentCodeWindow.getCurrentExecutionLine() - 2).setStyle("-fx-background-color: #98FB98");
+	            		currentCodeWindow.setLineColorToCompleted(currentCodeWindow.getCurrentExecutionLine() - 2);
 	                
-	                System.out.println(currentCodeWindow.getCurrentExecutionLine());
-	                
-	                editor.webview.getEngine().executeScript("editor.setLineClass(15, null, 'test');");
-            	
+	                System.out.println(currentCodeWindow.getCurrentExecutionLine());   
+        		}
             }
         });
         
@@ -302,13 +296,14 @@ public class liveDebugging extends Application {
             @Override public void handle(ActionEvent e) {
             	if(currentCodeWindow.getCurrentExecutionLine() > 1)
             	{
+            		//decrement current exe line
             		currentCodeWindow.decrementCurrentExecutionLine();
+	            	
             		//set previous line to yellow
-            		VBox codeStack = currentCodeWindow.getCodeStack();
-	            	codeStack.getChildren().get(currentCodeWindow.getCurrentExecutionLine() - 1).setStyle("-fx-background-color: #FFFF99");
+            		currentCodeWindow.setLineColorToCurrent(currentCodeWindow.getCurrentExecutionLine() - 1);
                 
             		//set current line to red
-	            	codeStack.getChildren().get(currentCodeWindow.getCurrentExecutionLine()).setStyle("-fx-background-color: #ECC3BF");
+            		currentCodeWindow.setLineColorToNew(currentCodeWindow.getCurrentExecutionLine());
                 
                 	System.out.println(currentCodeWindow.getCurrentExecutionLine() );
                 	
@@ -321,19 +316,12 @@ public class liveDebugging extends Application {
         toggleBtn.setOnAction(new EventHandler<ActionEvent>() {
         	@Override public void handle(ActionEvent e) 
         		{
-        			if(currentWindowIdx == 0)
-        			{
-        				setCurrentCodeWindow(CodeWindow2);
-        				currentWindowIdx = 1;
-        			}else
-        				
-        			{
-        				setCurrentCodeWindow(CodeWindow1);
-        				currentWindowIdx = 0;
-        			}
-        			
-        			Label label = (Label) root.lookup("#label");
-        			label.setText("Toggle" + currentWindowIdx);
+        			//if index is pointing to last element in ary, reset to 1st code window else set code window as current
+        			if(codeWindowAry.lastIndexOf(currentCodeWindow) == codeWindowAry.size() - 1)
+        				currentCodeWindow = codeWindowAry.get(0);
+        			else
+        				currentCodeWindow = codeWindowAry.get( codeWindowAry.lastIndexOf(currentCodeWindow) + 1 );;
+     			
         		}
         	});
         
