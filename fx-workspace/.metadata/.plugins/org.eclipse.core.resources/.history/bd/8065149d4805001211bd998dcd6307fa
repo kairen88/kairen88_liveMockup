@@ -1,0 +1,120 @@
+package com.live.Debugger;
+
+import com.sun.javafx.scene.layout.region.Margins.Converter;
+import com.sun.org.apache.bcel.internal.classfile.Attribute;
+
+import sun.io.Converters;
+import javafx.beans.property.DoubleProperty;
+import javafx.beans.property.SimpleDoubleProperty;
+import javafx.beans.value.ObservableDoubleValue;
+import javafx.beans.value.ObservableValue;
+import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.scene.control.Label;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+
+
+public class CodeWindow {
+	int currentExecutionLine = 0;
+	ScrollPane windowContainer;
+	VBox codeStack;
+	Attribute a;
+	DoubleProperty endX;
+//	ObservableValue<Number>   
+	DoubleProperty endY;
+	DoubleProperty startX;
+	DoubleProperty startY;
+	
+	public CodeWindow()
+	{
+		windowContainer = new ScrollPane(); 
+		
+		endX = new SimpleDoubleProperty(0.0);		
+		endY = new SimpleDoubleProperty(0.0);
+		startX = new SimpleDoubleProperty(0.0);
+		startY = new SimpleDoubleProperty(0.0);
+		
+		windowContainer.translateXProperty().bind(endX);
+		windowContainer.translateYProperty().bind(endY);
+		
+		draggableCodeWindow();
+	}
+	
+	public void setCodeStack( ObservableList<HBox> _codeList)
+	{
+		if(codeStack == null)
+		{
+			codeStack = new VBox();
+			codeStack.setId("codeStack");
+		}
+		codeStack.getChildren().addAll( _codeList );
+		
+		windowContainer.setContent(codeStack);
+	}
+	
+	public VBox getCodeStack()
+	{
+		return codeStack;
+	}
+	
+	public ScrollPane getCodeWindow()
+	{
+		return windowContainer;
+	}
+	
+	public void relocate(double _x, double _y)
+	{
+		windowContainer.relocate(_x, _y);
+	}
+	
+	public void setSize(double _width, double _height)
+	{
+		windowContainer.setPrefSize(_width, _height);
+	}
+	
+	public int getCurrentExecutionLine()
+	{
+		return currentExecutionLine;
+	}
+	
+	public int incrementCurrentExecutionLine()
+	{
+		return currentExecutionLine += 1;
+	}
+	
+	public int decrementCurrentExecutionLine()
+	{
+		return currentExecutionLine -= 1;
+	}
+	
+	private void draggableCodeWindow()
+	{
+		windowContainer.setOnMousePressed(new EventHandler<MouseEvent>()
+				{
+					@Override public void handle(MouseEvent e) 
+		    		{
+						startX.set(e.getX());
+		                startY.set(e.getX());
+		    		}
+				});
+		
+		windowContainer.setOnMouseDragged(new EventHandler<MouseEvent>()
+		{
+			@Override public void handle(MouseEvent e) 
+    		{
+                endX.set(e.getX() - startX.doubleValue());
+                endY.set(e.getY() - startY.doubleValue());
+                
+//                windowContainer.setTranslateX( (e.getX() - startX.doubleValue()) );
+//                windowContainer.setTranslateY( (e.getY() - startY.doubleValue()) );
+				
+//				windowContainer.setTranslateX( 10);
+//                windowContainer.setTranslateY( 10 );
+    		}
+		});
+	}
+}

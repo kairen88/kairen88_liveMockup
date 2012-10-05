@@ -1,0 +1,116 @@
+package com.live.Debugger;
+
+import com.sun.javafx.scene.layout.region.Margins.Converter;
+
+import sun.io.Converters;
+import javafx.beans.value.ObservableValue;
+import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.scene.control.Label;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+
+public class CodeWindow {
+	int currentExecutionLine = 0;
+	ScrollPane windowContainer;
+	VBox codeStack;
+	ObservableValue<Number> endX;  
+	ObservableValue<Number> endY;
+	ObservableValue<Number> startX;
+	ObservableValue<Number> startY;
+	
+	public CodeWindow()
+	{
+		windowContainer = new ScrollPane(); 
+		
+		Number eX = 0.0;
+		Number eY = 0.0;
+		Number sX = 0.0;
+		Number sY = 0.0;
+		
+		endX = (ObservableValue<Number>) eX;
+		endY = (ObservableValue<Number>) eY;
+		startX = (ObservableValue<Number>) sX;
+		startY = (ObservableValue<Number>) sY;
+		
+		windowContainer.translateXProperty().bind(endX);
+		windowContainer.translateYProperty().bind(endY);
+		
+		draggableCodeWindow();
+	}
+	
+	public void setCodeStack( ObservableList<HBox> _codeList)
+	{
+		if(codeStack == null)
+		{
+			codeStack = new VBox();
+			codeStack.setId("codeStack");
+		}
+		codeStack.getChildren().addAll( _codeList );
+		
+		windowContainer.setContent(codeStack);
+	}
+	
+	public VBox getCodeStack()
+	{
+		return codeStack;
+	}
+	
+	public ScrollPane getCodeWindow()
+	{
+		return windowContainer;
+	}
+	
+	public void relocate(double _x, double _y)
+	{
+		windowContainer.relocate(_x, _y);
+	}
+	
+	public void setSize(double _width, double _height)
+	{
+		windowContainer.setPrefSize(_width, _height);
+	}
+	
+	public int getCurrentExecutionLine()
+	{
+		return currentExecutionLine;
+	}
+	
+	public int incrementCurrentExecutionLine()
+	{
+		return currentExecutionLine += 1;
+	}
+	
+	public int decrementCurrentExecutionLine()
+	{
+		return currentExecutionLine -= 1;
+	}
+	
+	private void draggableCodeWindow()
+	{
+		windowContainer.setOnMousePressed(new EventHandler<MouseEvent>()
+				{
+					@Override public void handle(MouseEvent e) 
+		    		{
+						Number startXDouble = e.getX() - endX.getValue().doubleValue();
+						startX = (ObservableValue<Number>)startXDouble;
+						Number startYDouble = e.getY() - endY.getValue().doubleValue();
+		                startY = (ObservableValue<Number>)startYDouble;
+		    		}
+				});
+		
+		windowContainer.setOnMouseDragged(new EventHandler<MouseEvent>()
+		{
+			@Override public void handle(MouseEvent e) 
+    		{
+				Number endXDouble = e.getX() - startX.getValue().doubleValue();
+				endX = (ObservableValue<Number>)endXDouble;
+				Number endYDouble = e.getY() - startY.getValue().doubleValue();
+                endY = (ObservableValue<Number>)endYDouble;
+    		}
+		});
+	}
+}

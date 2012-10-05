@@ -1,0 +1,54 @@
+package com.live.Debugger;
+
+import javafx.collections.ObservableList;
+import javafx.scene.control.ScrollPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+
+public class CodeWindow {
+	int currentExecutionLine = 0;
+	ScrollPane windowContainer;
+	VBox codeStack;
+	
+	public CodeWindow()
+	{
+		windowContainer = new ScrollPane(); 
+	}
+	
+	public void setCodeStack( ObservableList<HBox> _codeList)
+	{
+		if(codeStack == null)
+		{
+			codeStack = new VBox();
+			codeStack.setId("codeStack");
+		}
+		codeStack.getChildren().addAll( _codeList );
+		
+		windowContainer.setContent(codeStack);
+	}
+	
+	public VBox getCodeStack()
+	{
+		return codeStack;
+	}
+	
+	public ScrollPane getCodeWindow()
+	{
+		return windowContainer;
+	}
+	
+	public void relocate(double _x, double _y)
+	{
+		windowContainer.relocate(_x, _y);
+	}
+	
+	public void setSize(double _width, double _height)
+	{
+		windowContainer.setPrefSize(_width, _height);
+	}
+	
+	public int getCurrentExecutionLine()
+	{
+		return currentExecutionLine;
+	}
+}

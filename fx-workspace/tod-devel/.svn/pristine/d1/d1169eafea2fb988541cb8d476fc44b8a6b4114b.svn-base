@@ -1,0 +1,16 @@
+<html >
+ <head>
+  <title>ImageIO applet</title>
+ </head>
+ <body>
+<applet 
+  code="zz.snipsnap.storysnipper.StorySnipperApplet.class" 
+  width="100"
+  height="100">
+  <hr/>
+     We need to convert some of the standard applets to use
+     archive.  Any volunteers?
+  <hr/>
+</applet>
+ </body>
+</html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="717" class="zz.eclipse.utils.EclipseUtils" isBundle="false" name="Eclipse Utils" project="zz.eclipse.utils" provider="zz">
+		<library name="plugin.jar"/>
+	</bundle>
+</map>

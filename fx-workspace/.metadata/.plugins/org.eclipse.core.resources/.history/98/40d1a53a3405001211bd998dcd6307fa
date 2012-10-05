@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane fx:id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.live.Debugger.Controller">
+  <children>
+    <Label fx:id="label" layoutX="437.0" layoutY="37.0" prefHeight="34.0" prefWidth="141.0" text="Label" />
+    <Button fx:id="button" layoutX="480.0" layoutY="16.0" mnemonicParsing="false" onAction="#clicked" text="Button" />
+    <HBox fx:id="controlPane" layoutX="435.0" layoutY="200.0" prefHeight="31.0" prefWidth="141.0" />
+    <Button id="prevBtn" fx:id="PrevBtn" layoutX="397.0" layoutY="341.0" mnemonicParsing="false" text="Button" />
+    <Button fx:id="NextBtn" layoutX="464.0" layoutY="341.0" mnemonicParsing="false" text="Button" />
+  </children>
+</AnchorPane>

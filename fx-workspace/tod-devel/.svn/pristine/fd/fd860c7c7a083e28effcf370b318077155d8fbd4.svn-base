@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>jhid</title>
+  <meta content="gpothier" name="author">
+</head>
+
+<body>
+<h1>jhid-1.0.0</h1>
+<br>
+Project homepage: <a href="http://jhid.sourceforge.net">http://jhid.sourceforge.net</a><br>
+<br>
+<h2>Introduction</h2>
+This library provides a Java API to access Human Interaction Devices in
+a platform independant way.<br>
+Although the API is platform independant, it currently only has a linux
+implementation; contributions to provide implementations on other
+platforms are welcome.<br>
+<h2>Building<br>
+</h2>
+There is an ant buildfile in the root of the distribution. The default
+target will build everything. You will have jhid.jar and the native
+libraries in the build directory, and the javadoc in the doc directory.<br>
+<h2>Running</h2>
+The JVM must be able to access jhid native libraries. There are several
+ways to achieve that.<br>
+<ul>
+  <li>Add the following VM option:</li>
+</ul>
+<pre>-Djava.library.path=&lt;path&gt;<br></pre>
+Where &lt;path&gt; is the directory that contains the native libraries.<br>
+<ul>
+  <li>Add the path to the LD_LIBRARY_PATH environment variable.<br>
+  </li>
+</ul>
+<h2>Testing</h2>
+To test if jhid is working on your system, you can run the following
+command in the root directory of the distribution (provided you
+performed the build):<br>
+<pre># java -Djava.library.path=build -cp build/jhid.jar net.jhid.test.Test<br></pre>
+This test first prints a list of all the devices found by jhid, and
+then prints all the events received by all these devices, until you
+interrupt it
+by Ctrl+C.<br>
+<h2>Using in Linux</h2>
+In linux the jhid API is implemented using the devices
+/dev/input/event* or /dev/input/evedv*.<br>
+The user must have access to the files
+in the /dev/input virtual directory.<br>
+On Mandrake 10, run the following command as root:<br>
+<pre># chmod 777 -R /dev/input<br></pre>
+[Instructions on how to do this with other distributions are welcome]<br>
+<br>
+<br>
+</body>
+</html>

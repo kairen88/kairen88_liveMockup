@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jardesc>
+<jar path="/home/gpothier/eclipse/workbench-3.1/zz.csg/build/zz.csg.jar"/>
+<options buildIfNeeded="true" compress="true" descriptionLocation="/zz.csg/default.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+<storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+<selectedProjects/>
+<manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+<sealing sealJar="false">
+<packagesToSeal/>
+<packagesToUnSeal/>
+</sealing>
+</manifest>
+<selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+<javaElement handleIdentifier="=zz.csg/src"/>
+<file path="/zz.csg/.project"/>
+<file path="/zz.csg/.classpath"/>
+<javaElement handleIdentifier="=zz.csg/resources"/>
+</selectedElements>
+</jardesc>

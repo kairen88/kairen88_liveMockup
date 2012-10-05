@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Generated-from: 1347557091212;type=2
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse Utils
+Bundle-SymbolicName: zz.eclipse.utils
+Bundle-Version: 1.0.0
+Bundle-ClassPath: plugin.jar
+Bundle-Activator: zz.eclipse.utils.EclipseUtils
+Bundle-Vendor: zz
+Bundle-Localization: plugin
+Export-Package: zz.eclipse.utils,
+ zz.eclipse.utils.launcher,
+ zz.eclipse.utils.launcher.options
+Require-Bundle: org.eclipse.core.resources;visibility:=reexport,
+ org.eclipse.debug.core,
+ org.eclipse.debug.ui,
+ org.eclipse.jdt.debug,
+ org.eclipse.jdt.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jdt.core,
+ org.eclipse.swt,
+ org.eclipse.ui,
+ org.eclipse.jdt.debug.ui;visibility:=reexport,
+ org.eclipse.jdt.launching;visibility:=reexport
+Eclipse-LazyStart: true

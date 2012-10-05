@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.live.Debugger.Controller">
+  <children>
+    <Label fx:id="label" layoutX="437.0" layoutY="37.0" prefHeight="34.0" prefWidth="141.0" text="Label" />
+    <Button layoutX="479.0" layoutY="16.0" mnemonicParsing="false" onAction="#clicked" text="Button" />
+    <ScrollPane fx:id="rootPane" pannable="true" prefHeight="348.0" prefWidth="399.0" AnchorPane.bottomAnchor="25.5" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="183.0" AnchorPane.topAnchor="26.5" />
+    <HBox fx:id="controlPane" layoutX="435.0" layoutY="200.0" prefHeight="31.0" prefWidth="141.0" />
+  </children>
+</AnchorPane>

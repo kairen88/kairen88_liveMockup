@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:builderState="http://www.eclipse.org/xtext/builderstate/1.0">
+  <builderState:ResourceDescription URI="archive:file:/C:/Program%20Files/Java/jre7/lib/jfxrt.jar!/com/sun/deploy/uitoolkit/impl/fx/ui/deploydialogs.css">
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.3/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:radial-gradient" fragment="//@ruleset.3/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:radial-gradient4:rgba" fragment="//@ruleset.3/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.4/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.4/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.4/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.4/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.4/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="4:rgba" fragment="//@ruleset.4/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.9/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.9/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.10/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.10/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.17/@declarations.4/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.17/@declarations.4/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.18/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.18/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.19/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.20/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.28/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.31/@declarations.2/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.34/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.35/@declarations.2/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.39/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+  </builderState:ResourceDescription>
+  <builderState:ResourceDescription URI="archive:file:/C:/Program%20Files/Java/jre7/lib/jfxrt.jar!/com/sun/javafx/scene/control/skin/caspian/caspian.css">
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder" fragment="//@ruleset.0/@declarations.10/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder6:derive" fragment="//@ruleset.0/@declarations.10/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder6:derive" fragment="//@ruleset.0/@declarations.10/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder6:derive" fragment="//@ruleset.0/@declarations.10/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.0/@declarations.11/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder" fragment="//@ruleset.0/@declarations.13/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder" fragment="//@ruleset.0/@declarations.15/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder6:derive" fragment="//@ruleset.0/@declarations.15/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder" fragment="//@ruleset.0/@declarations.16/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder6:derive" fragment="//@ruleset.0/@declarations.16/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder" fragment="//@ruleset.0/@declarations.17/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder6:derive" fragment="//@ruleset.0/@declarations.17/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder6:derive" fragment="//@ruleset.0/@declarations.17/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder6:derive" fragment="//@ruleset.0/@declarations.17/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.4/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder6:derive" fragment="//@ruleset.0/@declarations.17/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.5/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder6:derive" fragment="//@ruleset.0/@declarations.17/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.6/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.0/@declarations.18/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.0/@declarations.18/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.0/@declarations.18/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.0/@declarations.19/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:ladder" fragment="//@ruleset.0/@declarations.19/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:ladder6:derive" fragment="//@ruleset.0/@declarations.19/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:ladder" fragment="//@ruleset.0/@declarations.19/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:ladder6:derive" fragment="//@ruleset.0/@declarations.19/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:ladder6:derive" fragment="//@ruleset.0/@declarations.19/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.0/@declarations.20/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:ladder" fragment="//@ruleset.0/@declarations.20/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:ladder6:derive" fragment="//@ruleset.0/@declarations.20/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:ladder" fragment="//@ruleset.0/@declarations.20/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:ladder6:derive" fragment="//@ruleset.0/@declarations.20/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:ladder6:derive" fragment="//@ruleset.0/@declarations.20/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.0/@declarations.21/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:ladder" fragment="//@ruleset.0/@declarations.21/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:ladder6:derive" fragment="//@ruleset.0/@declarations.21/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:ladder" fragment="//@ruleset.0/@declarations.21/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:ladder6:derive" fragment="//@ruleset.0/@declarations.21/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:ladder6:derive" fragment="//@ruleset.0/@declarations.21/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.0/@declarations.22/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.0/@declarations.22/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.0/@declarations.22/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.0/@declarations.23/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.0/@declarations.23/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.0/@declarations.23/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder" fragment="//@ruleset.0/@declarations.24/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder" fragment="//@ruleset.0/@declarations.25/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder" fragment="//@ruleset.0/@declarations.26/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder6:derive" fragment="//@ruleset.0/@declarations.26/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder" fragment="//@ruleset.0/@declarations.27/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder6:derive" fragment="//@ruleset.0/@declarations.27/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.0/@declarations.28/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.0/@declarations.28/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.0/@declarations.28/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder" fragment="//@ruleset.0/@declarations.29/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.18/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.18/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.18/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.18/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.18/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.18/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.18/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.18/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.4/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.18/@declarations.0/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.18/@declarations.0/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.18/@declarations.0/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.18/@declarations.0/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.18/@declarations.0/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.4/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.19/@declarations.1/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.19/@declarations.1/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.19/@declarations.1/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.19/@declarations.1/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.19/@declarations.1/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.19/@declarations.1/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.19/@declarations.1/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.19/@declarations.1/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.4/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.19/@declarations.1/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.19/@declarations.1/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.19/@declarations.1/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.19/@declarations.1/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.19/@declarations.1/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.4/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.49/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.49/@declarations.1/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.49/@declarations.1/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.49/@declarations.1/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.49/@declarations.1/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.49/@declarations.1/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.49/@declarations.1/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.4/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.61/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:innershadow" fragment="//@ruleset.61/@declarations.3/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:innershadow4:rgba" fragment="//@ruleset.61/@declarations.3/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.62/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:innershadow" fragment="//@ruleset.62/@declarations.3/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:innershadow4:rgba" fragment="//@ruleset.62/@declarations.3/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.63/@declarations.3/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.63/@declarations.4/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.63/@declarations.4/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.63/@declarations.4/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.97/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.97/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.97/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.97/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.97/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.98/@declarations.1/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.98/@declarations.1/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.98/@declarations.1/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.98/@declarations.1/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.98/@declarations.1/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.100/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.100/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.100/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.100/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.100/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.101/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.101/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.101/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.101/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.101/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder" fragment="//@ruleset.102/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder6:derive" fragment="//@ruleset.102/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:ladder6:derive" fragment="//@ruleset.102/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.105/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.105/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.105/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.106/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.106/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.106/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.107/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.107/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.107/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.108/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.108/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.108/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.109/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.109/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.109/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.109/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.109/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.109/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.110/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.110/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.110/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.110/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.110/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.110/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.113/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.113/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.113/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.113/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.114/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.114/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.114/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.114/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.115/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.115/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.115/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.115/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.116/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.116/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.116/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.116/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.117/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.117/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.117/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.118/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.118/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.118/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="8:segments" fragment="//@ruleset.131/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.132/@declarations.2/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.133/@declarations.2/@expression/@termGroups.0/@terms.1/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.135/@declarations.6/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.139/@declarations.5/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.155/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.157/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.165/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.165/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.165/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.212/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.212/@declarations.1/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.212/@declarations.1/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.212/@declarations.5/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.212/@declarations.5/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.213/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.213/@declarations.3/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.213/@declarations.3/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.215/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.215/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.215/@declarations.1/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.215/@declarations.1/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.215/@declarations.1/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.215/@declarations.1/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.215/@declarations.1/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.216/@declarations.2/@expression/@termGroups.0/@terms.1/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.217/@declarations.2/@expression/@termGroups.0/@terms.2/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.219/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.219/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.219/@declarations.1/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.219/@declarations.1/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.219/@declarations.1/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.219/@declarations.1/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.219/@declarations.1/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.223/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.224/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.225/@declarations.1/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.225/@declarations.1/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.225/@declarations.1/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.226/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.226/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.226/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.226/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.226/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.227/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.228/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.228/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.228/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.228/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.232/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.232/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.232/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.232/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.232/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.244/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.246/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.258/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.258/@declarations.0/@expression/@termGroups.0/@terms.1/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.258/@declarations.0/@expression/@termGroups.0/@terms.1/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.258/@declarations.0/@expression/@termGroups.0/@terms.1/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.258/@declarations.0/@expression/@termGroups.0/@terms.2/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.258/@declarations.0/@expression/@termGroups.0/@terms.3/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.258/@declarations.0/@expression/@termGroups.0/@terms.3/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.258/@declarations.0/@expression/@termGroups.0/@terms.3/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.269/@declarations.4/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.269/@declarations.4/@expression/@termGroups.0/@terms.1/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.269/@declarations.4/@expression/@termGroups.0/@terms.1/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.269/@declarations.4/@expression/@termGroups.0/@terms.1/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.269/@declarations.4/@expression/@termGroups.0/@terms.2/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.269/@declarations.4/@expression/@termGroups.0/@terms.3/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.269/@declarations.4/@expression/@termGroups.0/@terms.3/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.269/@declarations.4/@expression/@termGroups.0/@terms.3/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.271/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.271/@declarations.1/@expression/@termGroups.0/@terms.1/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.271/@declarations.1/@expression/@termGroups.0/@terms.1/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.271/@declarations.1/@expression/@termGroups.0/@terms.1/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.271/@declarations.1/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.271/@declarations.1/@expression/@termGroups.1/@terms.1/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.271/@declarations.1/@expression/@termGroups.1/@terms.1/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.271/@declarations.1/@expression/@termGroups.1/@terms.1/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.284/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.284/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.284/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.284/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.284/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.4/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.319/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:innershadow" fragment="//@ruleset.319/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="11:innershadow4:rgba" fragment="//@ruleset.319/@declarations.1/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.324/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.324/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.325/@declarations.3/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.325/@declarations.3/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.326/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.364/@declarations.2/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.364/@declarations.2/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:radial-gradient" fragment="//@ruleset.410/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:radial-gradient6:derive" fragment="//@ruleset.410/@declarations.1/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:radial-gradient6:derive" fragment="//@ruleset.410/@declarations.1/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.419/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.419/@declarations.1/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.419/@declarations.1/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.419/@declarations.1/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.419/@declarations.1/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.419/@declarations.1/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.419/@declarations.1/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.419/@declarations.1/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.419/@declarations.1/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.420/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.420/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.420/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.420/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.420/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.420/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.420/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.420/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.420/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.421/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.421/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.421/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.421/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.421/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.421/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.421/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.421/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.421/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.422/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.422/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.422/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.422/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.422/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.422/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.422/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.422/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.422/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:radial-gradient" fragment="//@ruleset.432/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:radial-gradient6:derive" fragment="//@ruleset.432/@declarations.1/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:radial-gradient6:derive" fragment="//@ruleset.432/@declarations.1/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.432/@declarations.3/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.457/@declarations.2/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.457/@declarations.2/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.470/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.470/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.470/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.470/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.470/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.470/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.470/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.4/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.470/@declarations.4/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.470/@declarations.4/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="4:rgba" fragment="//@ruleset.481/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.482/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.482/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.483/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.483/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.483/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.483/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.483/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.483/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.483/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.483/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.4/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.483/@declarations.0/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.483/@declarations.0/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.483/@declarations.0/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.483/@declarations.0/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient4:rgba" fragment="//@ruleset.483/@declarations.0/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.4/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.495/@declarations.5/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.498/@declarations.5/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.501/@declarations.5/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.503/@declarations.5/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.506/@declarations.5/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+  </builderState:ResourceDescription>
+  <builderState:ResourceDescription URI="archive:file:/C:/Program%20Files/Java/jre7/lib/jfxrt.jar!/com/sun/javafx/scene/web/skin/html-editor.css">
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.0/@declarations.4/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.1/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.1/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.1/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.1/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.1/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.1/@declarations.2/@expression/@termGroups.0/@terms.2/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.2/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.2/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.2/@declarations.0/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.2/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.2/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.2/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.2/@declarations.2/@expression/@termGroups.0/@terms.1/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.2/@declarations.2/@expression/@termGroups.0/@terms.3/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.2/@declarations.2/@expression/@termGroups.1/@terms.2/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.3/@declarations.2/@expression/@termGroups.0/@terms.1/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.8/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.8/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.9/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.9/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.11/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.11/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.12/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.12/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.13/@declarations.1/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.13/@declarations.1/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.14/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.14/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.14/@declarations.0/@expression/@termGroups.1/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.14/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.14/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.14/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.14/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.14/@declarations.0/@expression/@termGroups.2/@terms.0/@function/@expression/@termGroups.4/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.17/@declarations.2/@expression/@termGroups.3/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.17/@declarations.2/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient6:derive" fragment="//@ruleset.17/@declarations.2/@expression/@termGroups.3/@terms.0/@function/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.20/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.21/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.22/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.22/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.23/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+  </builderState:ResourceDescription>
+  <builderState:ResourceDescription URI="archive:file:/C:/Program%20Files/Java/jre7/lib/jfxrt.jar!/com/sun/javafx/scene/control/skin/caspian/highcontrast.css">
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:linear" fragment="//@ruleset.0/@declarations.2/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="2:to" fragment="//@ruleset.0/@declarations.2/@expression/@termGroups.0/@terms.1/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="5:stops" fragment="//@ruleset.0/@declarations.2/@expression/@termGroups.0/@terms.2/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:linear" fragment="//@ruleset.6/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="2:to" fragment="//@ruleset.6/@declarations.0/@expression/@termGroups.1/@terms.1/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="5:stops" fragment="//@ruleset.6/@declarations.0/@expression/@termGroups.1/@terms.2/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="5:stops6:derive" fragment="//@ruleset.6/@declarations.0/@expression/@termGroups.1/@terms.2/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:linear" fragment="//@ruleset.8/@declarations.1/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="2:to" fragment="//@ruleset.8/@declarations.1/@expression/@termGroups.1/@terms.1/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="5:stops" fragment="//@ruleset.8/@declarations.1/@expression/@termGroups.1/@terms.2/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="5:stops6:derive" fragment="//@ruleset.8/@declarations.1/@expression/@termGroups.1/@terms.2/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+  </builderState:ResourceDescription>
+  <builderState:ResourceDescription URI="archive:file:/C:/Program%20Files/Java/jre7/lib/jfxrt.jar!/com/sun/javafx/scene/control/skin/caspian/embedded-qvga.css"/>
+  <builderState:ResourceDescription URI="archive:file:/C:/Program%20Files/Java/jre7/lib/jfxrt.jar!/com/sun/javafx/scene/control/skin/caspian/embedded.css">
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.1/@declarations.1/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="6:derive" fragment="//@ruleset.2/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.11/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.12/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.16/@declarations.4/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.16/@declarations.4/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.17/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.17/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow" fragment="//@ruleset.17/@declarations.7/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="10:dropshadow4:rgba" fragment="//@ruleset.17/@declarations.7/@expression/@termGroups.0/@terms.0/@function/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.19/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.19/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.23/@declarations.0/@expression/@termGroups.0/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.23/@declarations.0/@expression/@termGroups.1/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+    <exportedObjects xsi:type="builderState:EObjectDescription" name="15:linear-gradient" fragment="//@ruleset.23/@declarations.0/@expression/@termGroups.2/@terms.0/@function">
+      <eClass href="http://www.bestsolution.at/efxclipse/tooling/css/CssDsl#//function"/>
+    </exportedObjects>
+  </builderState:ResourceDescription>
+</xmi:XMI>

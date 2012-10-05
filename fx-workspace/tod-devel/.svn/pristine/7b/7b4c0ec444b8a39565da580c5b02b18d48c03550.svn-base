@@ -1,0 +1,14 @@
+# Properties for the ant build process
+#
+# @author gpothier
+# @version $Id$
+
+# application name and version
+appname=StorySnipper
+status=alpha-1
+version=1.0
+
+# deprecated compiling and debugging
+deprecation=true
+debug=true
+
