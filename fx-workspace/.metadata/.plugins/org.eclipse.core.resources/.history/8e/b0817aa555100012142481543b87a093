@@ -1,9 +1,5 @@
 package com.live.Debugger;
 
-import java.io.BufferedReader;
-import java.io.DataInputStream;
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
 import java.nio.file.Path;
 
 import javafx.beans.value.ChangeListener;
@@ -48,7 +44,7 @@ public class CodeWindow {
 	}
 	
 	//overloaded constructor that takes path and loads code from file
-	public CodeWindow(Path _editingCodePath, int _windowWidth, int _windowHeight) {
+	public CodeWindow(Path editingCodePath, int _windowWidth, int _windowHeight) {
 		//initialize window dimensions
 		//set code window size, min 300 by 300
 		if(_windowWidth < 300)
@@ -60,9 +56,6 @@ public class CodeWindow {
 			this.windowHeight= 300;
 		else
 			this.windowHeight= _windowHeight;
-		
-		//load the code from file
-		String editingCode = getCodeFromFile(_editingCodePath);
 		
 		//construct the code window
 		constructCodeWindow(editingCode);	
@@ -186,36 +179,6 @@ public class CodeWindow {
 		
 		//add stack pane to root draggable node
 		codeWindowContainer.getChildren().add(codeWindowSP);
-	}
-	
-	private String getCodeFromFile(Path _editingCodePath)
-	{
-		//read in code from file
-		String editingCode  = "";
-		String filePath = _editingCodePath.toString();
-		  try{
-			  // Open the file that is the first command line parameter
-			  FileInputStream fstream = new FileInputStream(filePath);
-			  // Get the object of DataInputStream
-			  DataInputStream in = new DataInputStream(fstream);
-			  BufferedReader br = new BufferedReader(new InputStreamReader(in));
-			  String strLine;
-			  //Read File Line By Line
-			  while ((strLine = br.readLine()) != null)   
-			  {
-	    		  //append to string obj template
-				  editingCode += strLine + "\n";
-			  }
-			  //Close the input stream
-			  in.close();
-
-		    }catch (Exception e)
-		    {
-		    	//Catch exception if any
-		    	System.err.println("Error: " + e.getMessage());
-		    }
-		  
-		  return editingCode;
 	}
 
 }

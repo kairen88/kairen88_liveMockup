@@ -204,7 +204,7 @@ public class CodeWindow {
 			  while ((strLine = br.readLine()) != null)   
 			  {
 	    		  //append to string obj template
-				  editingCode += strLine + "\n";
+				  editingCode += strLine;
 			  }
 			  //Close the input stream
 			  in.close();

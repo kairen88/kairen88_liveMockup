@@ -5,8 +5,6 @@ import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.nio.file.FileSystems;
-import java.nio.file.Path;
 import java.util.ArrayList;
 
 import netscape.javascript.JSObject;
@@ -163,11 +161,8 @@ public class liveDebugging extends Application {
 //		//testing out codemirror code editor
 		codeWindowAry = new ArrayList<CodeWindow>();
 		
-		Path path = FileSystems.getDefault().getPath("resource", "textfile.txt");
-		
-		
 		//adding 1st code window setting it as current
-		editor = new CodeWindow(path, 660, 345);
+		editor = new CodeWindow(editingCode, 660, 345);
 		addDraggableElementToRoot(editor.getRootNode());
 		codeWindowAry.add(editor);
 		
