@@ -1,113 +1,143 @@
 package com.live.Debugger;
 
-import java.awt.Paint;
-
-import com.sun.javafx.scene.layout.region.Margins.Converter;
-import com.sun.org.apache.bcel.internal.classfile.Attribute;
-import com.sun.prism.paint.Color;
-
-import sun.io.Converters;
-import javafx.beans.property.DoubleProperty;
-import javafx.beans.property.SimpleDoubleProperty;
-import javafx.beans.value.ObservableDoubleValue;
+import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
-import javafx.collections.ObservableList;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.scene.control.Label;
-import javafx.scene.control.ScrollPane;
-import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
-import javafx.scene.shape.*;
-
+import javafx.concurrent.Worker.State;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.StackPane;
+import javafx.scene.shape.Rectangle;
 
 public class CodeWindow {
-	int currentExecutionLine = 0;
-	ScrollPane windowContainer;
-	VBox codeStack;
-	DraggableNode node;
-	int codeWindowWidth;
-	int codeWindowHeight;
-	int topPadding;
-	int leftPadding;
 	
-	public CodeWindow()
-	{
-		//default width and height
-		codeWindowWidth = 420;
-		codeWindowHeight = 200;
-		topPadding = 30;
-		leftPadding = 10;
+	private CodeEditor editor;
+	private DraggableNode codeWindowContainer;
+	private StackPane codeWindowSP;
+	
+	private int windowWidth;
+	private int windowHeight;
+	private int padding = 15;
+	private int paddingTop = 20;
+	
+	private int currentExecutionLine = 0;
+	
+	public CodeWindow(String editingCode, int _windowWidth, int _windowHeight) {
+		//set code window size, min 300 by 300
+		if(_windowWidth < 300)
+			this.windowWidth = 300;
+		else
+			this.windowWidth = _windowWidth;
 		
-		windowContainer = new ScrollPane(); 
-		setSize(codeWindowWidth - 20, codeWindowHeight -40);
+		if(_windowHeight < 300)
+			this.windowHeight= 300;
+		else
+			this.windowHeight= _windowHeight;
 		
-		Rectangle rec = new Rectangle(codeWindowWidth, codeWindowHeight);
-		javafx.scene.paint.Paint color = javafx.scene.paint.Paint.valueOf("CCCCCC");
-		rec.setFill(color);
-		rec.setArcHeight(15);
-		rec.setArcWidth(15);
+		codeWindowContainer = new DraggableNode();
+		//initialize codeMirror editor
+		//padding for editor is 2*padding, 2*padding + paddingTop
+		editor = new CodeEditor(editingCode, windowWidth - (padding * 2), windowHeight - (padding * 2 + paddingTop) );
 		
-		node = new DraggableNode();
-		node.getChildren().add(rec);
-		node.getChildren().add(windowContainer);
+		//creating code window background
+		Rectangle codeWindowBackground = createCodeWindowBackground();
 		
-		windowContainer.relocate(leftPadding, topPadding);
+		//stack pane to stack elements in code window
+		codeWindowSP = new StackPane();
 
-	}
-	
-	public void setCodeStack( ObservableList<HBox> _codeList)
-	{
-		if(codeStack == null)
-		{
-			codeStack = new VBox();
-			codeStack.setId("codeStack");
-		}
-		codeStack.getChildren().addAll( _codeList );
+		Pane eidtorPane = new Pane();
+		eidtorPane.getChildren().add(editor);
 		
-		windowContainer.setContent(codeStack);
+		//positioning editor with padding
+		editor.relocate(padding, padding + paddingTop);
+
+		codeWindowSP.getChildren().add(codeWindowBackground);
+		codeWindowSP.getChildren().add(eidtorPane);
+		
+		//add stack pane to root draggable node
+		codeWindowContainer.getChildren().add(codeWindowSP);
+		
+		
+		
+		//add change listener to run scripts when webform is loaded		
+		this.editor.webview.getEngine().getLoadWorker().stateProperty().addListener(
+		        new ChangeListener<State>() {
+		            public void changed(ObservableValue ov, State oldState, State newState) {
+		                if (newState == State.SUCCEEDED) {
+		                	//run scripts when webform loaded
+		                	//set all lines to class newLine, red		                	
+		                	
+		                }
+		            }
+		        });
 	}
 	
-	public VBox getCodeStack()
+	//public methods-----------------------------------------------------------
+	
+	//returns the root/container node for the code window which is a draggable node
+	public DraggableNode getRootNode()
 	{
-		return codeStack;
+		return codeWindowContainer;	
 	}
 	
-	public ScrollPane getCodeWindow()
+	//sets the class for the line number indicated to completedLine which styles it green
+	public void setLineColorToCompleted(int lineNum)
 	{
-		return windowContainer;
+		editor.webview.getEngine().executeScript("editor.setLineClass(" + String.valueOf(lineNum) + ", null, 'completedLine');");
 	}
 	
-	public void relocate(double _x, double _y)
+	//sets the class for the line number indicated to completedLine which styles it yellow
+	public void setLineColorToCurrent(int lineNum)
 	{
-		node.relocate(_x, _y);
+		editor.webview.getEngine().executeScript("editor.setLineClass(" + String.valueOf(lineNum) + ", null, 'currentLine');");
 	}
 	
-	public void setSize(double _width, double _height)
+	//sets the class for the line number indicated to completedLine which styles it red
+	public void setLineColorToNew(int lineNum)
 	{
-		windowContainer.setPrefSize(_width, _height);
+		editor.webview.getEngine().executeScript("editor.setLineClass(" + String.valueOf(lineNum) + ", null, 'newLine');");
 	}
 	
+	//return current execution line
 	public int getCurrentExecutionLine()
 	{
 		return currentExecutionLine;
 	}
 	
-	public int incrementCurrentExecutionLine()
+	//sets current execution line
+	public void setCurrentExecutionLine(int newLineNum)
 	{
-		return currentExecutionLine += 1;
+		this.currentExecutionLine = newLineNum ;
 	}
 	
-	public int decrementCurrentExecutionLine()
+	//increment the current execution line by 1
+	public void incrementCurrentExecutionLine()
 	{
-		return currentExecutionLine -= 1;
+		this.currentExecutionLine += 1;
 	}
 	
-	public DraggableNode getDraggableNode()
+	//decrement the current execution line by 1
+	public void decrementCurrentExecutionLine()
 	{
-		return node;
+		this.currentExecutionLine -= 1;
 	}
 	
+	public int getLineCount()
+	{
+		Object codeLineCount = editor.webview.getEngine().executeScript("editor.lineCount();");
+		return (int) codeLineCount;
+	}
 	
+	//private helper methods-----------------------------------------------------------
+
+	
+	private Rectangle createCodeWindowBackground()
+	{
+		Rectangle codeWindowBackground = new Rectangle(windowWidth, windowHeight);
+		javafx.scene.paint.Paint codeMirrorBackgroundColor = javafx.scene.paint.Paint.valueOf("CCCCCC");
+		codeWindowBackground.setFill(codeMirrorBackgroundColor);
+		codeWindowBackground.setArcHeight(15);
+		codeWindowBackground.setArcWidth(15);
+		
+		return codeWindowBackground;
+	}
+
 }

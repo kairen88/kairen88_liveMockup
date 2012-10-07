@@ -36,14 +36,12 @@ public class liveDebugging extends Application {
 //	CodeWindow currentCodeWindow = null;
 	//0 represents no line executed, 1st line is 1, current code display list starts from 0 so need to + 1
 	int currentExecutionLine = 0; 
-	//for testing
-	CodeWindow CodeWindow1 = null;
-	CodeWindow CodeWindow2 = null;
+
 	int currentWindowIdx = 0;
 	
-	CodeWindow2 editor ;
-	ArrayList<CodeWindow2> codeWindowAry ;
-	CodeWindow2 currentCodeWindow;
+	CodeWindow editor ;
+	ArrayList<CodeWindow> codeWindowAry ;
+	CodeWindow currentCodeWindow;
 	int codeWindowIdx = 0;
 	
 	 static final private String editingCode =
@@ -161,17 +159,17 @@ public class liveDebugging extends Application {
 //-----------------------------------      
 		
 //		//testing out codemirror code editor
-		codeWindowAry = new ArrayList<CodeWindow2>();
+		codeWindowAry = new ArrayList<CodeWindow>();
 		
 		//adding 1st code window setting it as current
-		editor = new CodeWindow2(editingCode, 660, 345);
+		editor = new CodeWindow(editingCode, 660, 345);
 		addDraggableElementToRoot(editor.getRootNode());
 		codeWindowAry.add(editor);
 		
 		currentCodeWindow = editor;
 		
 //		adding 2nd code window to ary, setting code window below min width and height
-		editor = new CodeWindow2(editingCode, 200, 150);
+		editor = new CodeWindow(editingCode, 200, 150);
 		addDraggableElementToRoot(editor.getRootNode());
 		codeWindowAry.add(editor);
 		
@@ -264,10 +262,7 @@ public class liveDebugging extends Application {
 		return list;
     }
     
-    private void setCurrentCodeWindow(CodeWindow codeWindow)
-    {
-//    	currentCodeWindow = codeWindow;
-    }
+
     
     private void initializeElementControl()
     {

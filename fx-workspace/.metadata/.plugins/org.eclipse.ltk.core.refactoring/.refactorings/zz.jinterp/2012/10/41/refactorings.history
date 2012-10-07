@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;zz.jinterp&apos; to &apos;TOD Clone/src&apos;&#x0D;&#x0A;- Original project: &apos;zz.jinterp&apos;&#x0D;&#x0A;- Destination element: &apos;TOD Clone/src&apos;&#x0D;&#x0A;- Original element: &apos;zz.jinterp/src/zz.jinterp&apos;" description="Copy package" destination="=TOD Clone/src" element1="/src&lt;zz.jinterp" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1349591444379" version="1.0"/>
+</session>

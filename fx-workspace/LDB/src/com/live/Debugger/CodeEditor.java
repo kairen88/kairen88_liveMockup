@@ -1,5 +1,11 @@
  package com.live.Debugger;
 
+import java.io.BufferedReader;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.net.URL;
+
 import javafx.scene.layout.StackPane;
 import javafx.scene.web.WebView;
 
@@ -12,6 +18,7 @@ import javafx.scene.web.WebView;
 public class CodeEditor extends StackPane {
   /** a webview used to encapsulate the CodeMirror JavaScript. */
   final WebView webview = new WebView();
+  private String template = "";
 
   /** a snapshot of the code to be edited kept for easy initilization and reversion of editable code. */
   private String editingCode;
@@ -50,7 +57,34 @@ public class CodeEditor extends StackPane {
 
   /** applies the editing template to the editing code to create the html+javascript source for a code editor. */
   private String applyEditingTemplate() {
-    return editingTemplate.replace("${code}", editingCode);
+//    return editingTemplate.replace("${code}", editingCode);
+    return template.replace("${code}", editingCode);
+  }
+  
+  /** reads in template file and stores it in string var */
+  private void loadTemplate() {
+    //read in template file line by line
+	  try{
+		  // Open the file that is the first command line parameter
+		  FileInputStream fstream = new FileInputStream("resource\\template.xml");
+		  // Get the object of DataInputStream
+		  DataInputStream in = new DataInputStream(fstream);
+		  BufferedReader br = new BufferedReader(new InputStreamReader(in));
+		  String strLine;
+		  //Read File Line By Line
+		  while ((strLine = br.readLine()) != null)   
+		  {
+    		  //append to string obj template
+			  template += strLine;
+		  }
+		  //Close the input stream
+		  in.close();
+
+	    }catch (Exception e)
+	    {
+	    	//Catch exception if any
+	    	System.err.println("Error: " + e.getMessage());
+	    }
   }
 
   /** sets the current code in the editor and creates an editing snapshot of the code which can be reverted to. */
@@ -77,6 +111,14 @@ public class CodeEditor extends StackPane {
   CodeEditor(String editingCode, int width, int height) {
     this.editingCode = editingCode;
 
+    //loads the template from template.xml into string obj
+    loadTemplate();
+    
+//    //loads resources required by the template
+//    URL urlHello = this.getClass().getResource("codemirror.css");
+//    webview.getEngine()
+//    .load(urlHello.toExternalForm());
+    
     webview.setPrefSize(width, height);
     webview.setMinSize(width, height);
     webview.getEngine().loadContent(applyEditingTemplate());

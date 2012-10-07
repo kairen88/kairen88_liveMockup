@@ -16,7 +16,6 @@
 <fullyQualifiedTypeName name="javafx.scene.layout.VBox"/>
 <fullyQualifiedTypeName name="javafx.fxml.FXMLLoader"/>
 <fullyQualifiedTypeName name="javafx.scene.control.Label"/>
-<fullyQualifiedTypeName name="javafx.beans.value.ObservableValue"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="sun.io.Converters"/>
 <fullyQualifiedTypeName name="com.sun.javafx.scene.layout.region.Margins.Converter"/>
@@ -27,7 +26,6 @@
 <fullyQualifiedTypeName name="javafx.scene.input.MouseEvent"/>
 <fullyQualifiedTypeName name="com.live.Debugger.DraggableNode"/>
 <fullyQualifiedTypeName name="com.sun.javafx.geom.Rectangle"/>
-<fullyQualifiedTypeName name="javafx.scene.shape.Rectangle"/>
 <fullyQualifiedTypeName name="com.sun.prism.paint.Color"/>
 <fullyQualifiedTypeName name="java.awt.Paint"/>
 <fullyQualifiedTypeName name="javafx.scene.paint.Paint"/>
@@ -35,6 +33,13 @@
 <fullyQualifiedTypeName name="javafx.scene.shape.Line"/>
 <fullyQualifiedTypeName name="javafx.scene.layout.StackPane"/>
 <fullyQualifiedTypeName name="javafx.geometry.Pos"/>
-<fullyQualifiedTypeName name="javafx.scene.web.WebEngine"/>
 <fullyQualifiedTypeName name="netscape.javascript.JSObject"/>
+<fullyQualifiedTypeName name="javafx.concurrent.Worker.State"/>
+<fullyQualifiedTypeName name="javafx.beans.value.ObservableValue"/>
+<fullyQualifiedTypeName name="javafx.beans.value.ChangeListener"/>
+<fullyQualifiedTypeName name="javafx.scene.shape.Rectangle"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.live.Debugger.CodeWindow2"/>
+<fullyQualifiedTypeName name="javafx.scene.web.WebEngine"/>
+<fullyQualifiedTypeName name="java.net.URL"/>
 </qualifiedTypeNameHistroy>

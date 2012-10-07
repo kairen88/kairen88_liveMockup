@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-task-tag-projects-already-scanned=LDB,TOD-agent,TOD-core,TOD-dbgrid,TOD-evdb1,zz.eclipse.utils,zz.jinterp,zz.utils,TOD Clone
+task-tag-projects-already-scanned=LDB,TOD-agent,zz.jinterp,zz.utils,TOD
