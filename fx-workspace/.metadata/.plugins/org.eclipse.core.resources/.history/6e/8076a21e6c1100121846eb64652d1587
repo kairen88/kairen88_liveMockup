@@ -47,26 +47,15 @@ public class TickNavigator {
 		
 		currentNaviBar.getNaviBarRoot().getChildren().add(tickNavigatorContainer);
 		
-//		//calculate tick navigator height based on navi bar
-//		//resize tick navigator
-//		
-//		//get 2nd element in container tNMiddle
-//		//resize, relocate due to new length
-//		tickNavigatorContainer.getChildren().get(1).setScaleY( (currentNaviBar.getNaviBarHeight() + tickNavigatorToNaviBarPadding) / lineLenght);
-//		tickNavigatorContainer.getChildren().get(1).relocate((bWidth - lineThickness) / 2, bHeight + (tickNavigatorToNaviBarPadding / 2) );
-//		
+		//calculate tick navigator height based on navi bar
+		//resize tick navigator
+		
+		//get 2nd element in container tNMiddle
+		//resize, relocate due to new length
+		tickNavigatorContainer.getChildren().get(1).setScaleY( (currentNaviBar.getNaviBarHeight() + tickNavigatorToNaviBarPadding) / lineLenght);
+		tickNavigatorContainer.getChildren().get(1).relocate((bWidth - lineThickness) / 2, bHeight + (tickNavigatorToNaviBarPadding / 2) );
 		//set new length
 		lineLenght = (int) ( currentNaviBar.getNaviBarHeight() + tickNavigatorToNaviBarPadding);
-		
-		//create new tNMiddle
-		Rectangle tNMiddle = new Rectangle(lineThickness, lineLenght);
-		
-		//replace current tNMiddle with new tNMiddle
-		tickNavigatorContainer.getChildren().remove(1);
-		tickNavigatorContainer.getChildren().add(1, tNMiddle);
-		
-		//relocate tNMiddle
-		tNMiddle.relocate((bWidth - lineThickness) / 2, bHeight);
 		
 		//relocate tNBottom due to new line length
 		tickNavigatorContainer.getChildren().get(2).relocate(0, lineLenght + bHeight);
