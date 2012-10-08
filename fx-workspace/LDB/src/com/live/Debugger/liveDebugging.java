@@ -46,6 +46,12 @@ public class liveDebugging extends Application {
 	CodeWindow currentCodeWindow;
 	int codeWindowIdx = 0;
 	
+	DraggableNode tickNavigatorContainer;
+	double tickPosition = 0;
+	NavigationBar currentNaviBar;
+	ArrayList<NavigationBar> navibarAry;
+	TickNavigator tickNavigator;
+	
 	 static final private String editingCode =
 			    "import javafx.application.Application;\n" +
 			    "import javafx.scene.Scene;\n" +
@@ -75,89 +81,33 @@ public class liveDebugging extends Application {
 //		FXMLLoader fxmlLoader = new FXMLLoader();
 		root = FXMLLoader.load(getClass().getClassLoader().getResource("LDB_fxml.fxml"));
 
-
-//		CodeWindow testWin = new CodeWindow();
-//		testWin.setCodeStack(getArray());
-//		
-//		addDraggableElementToRoot(testWin.getDraggableNode());
-//		testWin.relocate(20, 10);
-////		testWin.setSize(400, 180);		
-//        
-//        //testing
-//        CodeWindow1 = testWin;
-//        
-//        //setting code window as currentCodeWindow
-//        setCurrentCodeWindow(testWin);        
-////-------------------------------
-//        CodeWindow testWin2 = new CodeWindow();
-//		testWin2.setCodeStack(getArray());
-//		
-//		addDraggableElementToRoot(testWin2.getDraggableNode());
-//		testWin2.relocate(20, 230);
-////		testWin2.setSize(400, 180);
-//		
-//        
-//        //testing
-//        CodeWindow2 = testWin2;
 //---------------------------------
-        int numberOfTicks = 30;
-        double naviBarHeight = 30.0;
-        double naviBarWidth = 200.0;
-        int naviBarDefaultPadding = 5;
-        
-        Rectangle rec = new Rectangle(naviBarWidth, naviBarHeight);
-		javafx.scene.paint.Paint color = javafx.scene.paint.Paint.valueOf("36B541");
-		rec.setFill(color);
-		rec.setArcHeight(5);
-		rec.setArcWidth(5);
+//        //testing navibation bar
 		
-		HBox timeSegments = new HBox();
-		
-		double segmentHeight = naviBarHeight;
-		double segmentWidth = Math.floor( (naviBarWidth - (2 * naviBarDefaultPadding)) / numberOfTicks );
-		double segmentTickHeight = naviBarHeight / 3.0;
-		
-		int loopStart = 5;
-		int loopEnd = 10;
-		
-		for(int i = 0; i < numberOfTicks; i++)
-		{
-			Pane segmentContainer = new Pane();			
-			
-			Rectangle segmentRec = new Rectangle(segmentWidth, segmentHeight);
-			javafx.scene.paint.Paint normalColor = color;
-			javafx.scene.paint.Paint loopColor = javafx.scene.paint.Paint.valueOf("B023A4");
-			
-			if(i >= loopStart && i <= loopEnd)
-				segmentRec.setFill(loopColor);
-			else
-				segmentRec.setFill(normalColor);
-			
-			Line segmentTick = new Line(1.0, segmentHeight, 1.0, segmentHeight - segmentTickHeight);
-			javafx.scene.paint.Paint naviBarTickColor = javafx.scene.paint.Paint.valueOf("FFFFFF");
-			segmentTick.setStroke(naviBarTickColor);
-			
-			segmentContainer.getChildren().addAll(segmentRec, segmentTick);
-			
-//			naviBarTick.relocate(10, 10);
-			
-			timeSegments.getChildren().add(segmentContainer);
-		}
-		
-		Label naviBarTitle = new Label("MethodName()");
-		naviBarTitle.setStyle("-fx-text-fill: #FFFFFF;");
+		navibarAry = new ArrayList<NavigationBar>();
 
-		Pane naviBar = new Pane();
-		naviBar.getChildren().addAll(rec, timeSegments, naviBarTitle);
-		double naviBarTiltlePadding = (naviBarWidth / 2)  - (naviBarTitle.getWidth() / 2);
-		naviBarTitle.relocate( naviBarTiltlePadding, 0.0);
+		NavigationBar naviBarRoot = new NavigationBar();
+		Pane naviBar = new NavigationBar().getNaviBarRoot();
 		
-		double naviBarCalculatedPadding = (naviBarWidth - (segmentWidth * numberOfTicks)) /2;
-		timeSegments.relocate(naviBarCalculatedPadding, 0);
-
+//		naviBar.relocate(20, 400); 		
+//		addElementToRoot(naviBar);
 		
-		naviBar.relocate(20, 400); 		
-		addElementToRoot(naviBar);
+		navibarAry.add(naviBarRoot);
+		currentNaviBar = naviBarRoot;
+		
+		NavigationBar naviBarRoot2 = new NavigationBar();
+		Pane naviBar2 = naviBarRoot2.getNaviBarRoot();
+		
+//		naviBar2.relocate(20, 450); 		
+//		addElementToRoot(naviBar2);
+		
+		navibarAry.add(naviBarRoot2);
+		
+		navibarAry.get(0).getNaviBarRoot().relocate(20, 400); 
+		addElementToRoot(navibarAry.get(0).getNaviBarRoot());
+		
+		navibarAry.get(1).getNaviBarRoot().relocate(20, 450); 
+		addElementToRoot(navibarAry.get(1).getNaviBarRoot());
 //-----------------------------------      
 		
 //		//testing out codemirror code editor
@@ -177,6 +127,16 @@ public class liveDebugging extends Application {
 		editor = new CodeWindow(editingCode, 200, 150);
 		addDraggableElementToRoot(editor.getRootNode());
 		codeWindowAry.add(editor);
+		
+//--------------------------------------------------------------
+		//tick navigator
+
+		TickNavigator t = new TickNavigator();
+		t.setTickNavigatorToNaviBar(currentNaviBar);
+		
+		tickNavigator = t;
+		
+//-------------------------------------------------------------		
 		
 		
         initializeElementControl();  	
@@ -286,7 +246,12 @@ public class liveDebugging extends Application {
 	            	if(currentCodeWindow.getCurrentExecutionLine() > 1)
 	                	//set previous line to green
 	            		currentCodeWindow.setLineColorToCompleted(currentCodeWindow.getCurrentExecutionLine() - 2);
-	                
+	            	
+	            	//set tick navigator position
+	            	//when using getCurrentExecutionLine to calculate spacing for tick navigator -1 as it is zero based
+//	            	tickNavigatorContainer.setTranslateX( (currentNaviBar.getSegmentWidth()) + ( currentNaviBar.getSegmentWidth() * (currentCodeWindow.getCurrentExecutionLine() - 2) ) );
+	            	tickNavigator.moveTickNavigatorToCurrTick(currentNaviBar, currentCodeWindow);
+	            	
 	                System.out.println(currentCodeWindow.getCurrentExecutionLine());   
         		}
             }
@@ -304,7 +269,11 @@ public class liveDebugging extends Application {
                 
             		//set current line to red
             		currentCodeWindow.setLineColorToNew(currentCodeWindow.getCurrentExecutionLine());
-                
+            		
+            		//set tick navigator position
+//            		tickNavigatorContainer.setTranslateX( (currentNaviBar.getSegmentWidth()) + ( currentNaviBar.getSegmentWidth() * (currentCodeWindow.getCurrentExecutionLine() - 2) ) );
+            		tickNavigator.moveTickNavigatorToCurrTick(currentNaviBar, currentCodeWindow);
+            		
                 	System.out.println(currentCodeWindow.getCurrentExecutionLine() );
                 	
             	}
@@ -316,11 +285,21 @@ public class liveDebugging extends Application {
         toggleBtn.setOnAction(new EventHandler<ActionEvent>() {
         	@Override public void handle(ActionEvent e) 
         		{
+        			//cycle through code windows in ary
         			//if index is pointing to last element in ary, reset to 1st code window else set code window as current
         			if(codeWindowAry.lastIndexOf(currentCodeWindow) == codeWindowAry.size() - 1)
         				currentCodeWindow = codeWindowAry.get(0);
         			else
-        				currentCodeWindow = codeWindowAry.get( codeWindowAry.lastIndexOf(currentCodeWindow) + 1 );;
+        				currentCodeWindow = codeWindowAry.get( codeWindowAry.lastIndexOf(currentCodeWindow) + 1 );
+        			
+        			if(navibarAry.lastIndexOf(currentNaviBar) == navibarAry.size() - 1)
+        				currentNaviBar = navibarAry.get(0);
+        			else
+        				currentNaviBar = navibarAry.get( navibarAry.lastIndexOf(currentNaviBar) + 1 );
+        			
+        			tickNavigator.setTickNavigatorToNaviBar(currentNaviBar);
+        			tickNavigator.moveTickNavigatorToCurrTick(currentNaviBar, currentCodeWindow);
+        			//after toggling tick navi over, need to set to position of that code window
      			
         		}
         	});

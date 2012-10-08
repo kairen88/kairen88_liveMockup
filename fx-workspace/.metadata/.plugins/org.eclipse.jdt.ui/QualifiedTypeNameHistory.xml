@@ -6,7 +6,6 @@
 <fullyQualifiedTypeName name="javafx.scene.Parent"/>
 <fullyQualifiedTypeName name="sun.misc.Launcher"/>
 <fullyQualifiedTypeName name="javafx.scene.Node"/>
-<fullyQualifiedTypeName name="javafx.scene.layout.HBox"/>
 <fullyQualifiedTypeName name="javafx.scene.control.Button"/>
 <fullyQualifiedTypeName name="javafx.event.ActionEvent"/>
 <fullyQualifiedTypeName name="javafx.scene.layout.AnchorPane"/>
@@ -24,12 +23,10 @@
 <fullyQualifiedTypeName name="javafx.beans.property.SimpleDoubleProperty"/>
 <fullyQualifiedTypeName name="javafx.event.EventHandler"/>
 <fullyQualifiedTypeName name="javafx.scene.input.MouseEvent"/>
-<fullyQualifiedTypeName name="com.live.Debugger.DraggableNode"/>
 <fullyQualifiedTypeName name="com.sun.javafx.geom.Rectangle"/>
 <fullyQualifiedTypeName name="com.sun.prism.paint.Color"/>
 <fullyQualifiedTypeName name="java.awt.Paint"/>
 <fullyQualifiedTypeName name="javafx.scene.paint.Paint"/>
-<fullyQualifiedTypeName name="javafx.scene.layout.Pane"/>
 <fullyQualifiedTypeName name="javafx.scene.shape.Line"/>
 <fullyQualifiedTypeName name="javafx.scene.layout.StackPane"/>
 <fullyQualifiedTypeName name="javafx.geometry.Pos"/>
@@ -38,8 +35,14 @@
 <fullyQualifiedTypeName name="javafx.beans.value.ObservableValue"/>
 <fullyQualifiedTypeName name="javafx.beans.value.ChangeListener"/>
 <fullyQualifiedTypeName name="javafx.scene.shape.Rectangle"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.live.Debugger.CodeWindow2"/>
 <fullyQualifiedTypeName name="javafx.scene.web.WebEngine"/>
 <fullyQualifiedTypeName name="java.net.URL"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javafx.scene.layout.HBox"/>
+<fullyQualifiedTypeName name="javafx.scene.layout.Pane"/>
+<fullyQualifiedTypeName name="com.live.Debugger.DraggableNode"/>
+<fullyQualifiedTypeName name="com.live.Debugger.NavigationBar"/>
+<fullyQualifiedTypeName name="com.live.Debugger.CodeWindow"/>
+<fullyQualifiedTypeName name="com.live.Debugger.TickNavigator"/>
 </qualifiedTypeNameHistroy>
