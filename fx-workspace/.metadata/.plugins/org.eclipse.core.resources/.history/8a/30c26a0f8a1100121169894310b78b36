@@ -1,0 +1,193 @@
+package com.live.Debugger;
+
+import java.util.ArrayList;
+
+import sun.org.mozilla.javascript.internal.ast.Loop;
+import javafx.scene.control.Label;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.Pane;
+import javafx.scene.shape.Line;
+import javafx.scene.shape.Rectangle;
+
+public class NavigationBar {
+	
+	Pane naviBar;
+	
+	double tickNavigatorPosition;
+	int numberOfTicks = 30;
+    double naviBarHeight = 30.0;
+    double naviBarWidth = 200.0;
+    int naviBarDefaultPadding = 5;
+    
+    double segmentHeight;
+	double segmentWidth;
+	double segmentTickHeight;
+    
+    //highlighted loop area, should change to array of pair values
+//    int loopStart = 5;
+//	int loopEnd = 10;
+	ArrayList<loopHighlighter> loopHighlightAry;
+	
+	//loop highlight color
+	private enum LoopColor
+	{
+		//pink  cyan    orange  purple
+		B023A4, AFEEEE, FFA500, D8BFD8
+	}
+	
+	private class loopHighlighter {
+		int StartLine;
+		int EndLine;
+		LoopColor loopColor;
+		
+		loopHighlighter(int _startLine, int _endLine, LoopColor _color) 
+		{
+			StartLine = _startLine;
+			EndLine = _endLine;
+			loopColor = _color;
+		}
+		
+		public int getStart() { return StartLine; }
+		public int getEnd() { return EndLine; }
+		public LoopColor getColor() { return loopColor; }
+	}
+	
+    public NavigationBar() 
+    {
+    	//initialize loop highlighter
+    	loopHighlightAry = new ArrayList<loopHighlighter>(); 
+    	
+    	//test setting here
+    	setLoopHighlight(2, 9);
+    	
+    	//creating navi bar background
+    	Rectangle barBackground = new Rectangle(naviBarWidth, naviBarHeight);
+		javafx.scene.paint.Paint color = javafx.scene.paint.Paint.valueOf("36B541");
+		barBackground.setFill(color);
+		barBackground.setArcHeight(5);
+		barBackground.setArcWidth(5);
+		
+		HBox timeSegments = constructTimeSegment();
+		
+		Label naviBarTitle = new Label("MethodName()");
+		naviBarTitle.setStyle("-fx-text-fill: #FFFFFF;");
+
+		naviBar = new Pane();
+		naviBar.getChildren().addAll(barBackground, timeSegments, naviBarTitle);
+		double naviBarTiltlePadding = (naviBarWidth / 2)  - (naviBarTitle.getWidth() / 2);
+		naviBarTitle.relocate( naviBarTiltlePadding, 0.0);
+		
+		double naviBarCalculatedPadding = (naviBarWidth - (segmentWidth * numberOfTicks)) /2;
+		timeSegments.relocate(naviBarCalculatedPadding, 0);		
+		
+	}
+    
+    public Pane getNaviBarRoot()
+    {
+    	return naviBar;
+    }
+    
+    public double getSegmentWidth()
+    {
+    	return segmentWidth;
+    }
+    
+    public double getNaviBarHeight()
+    {
+    	return naviBarHeight;
+    }
+    
+    public void setLoopHighlight(int _loopStart, int _loopEnd)
+    {
+    	//need to check if loop range is within an existing loop, if so use next color in enum
+    	loopHighlighter loopHighlighter = new loopHighlighter(_loopStart, _loopEnd, LoopColor.AFEEEE);
+
+    	loopHighlightAry.add(loopHighlighter);
+    	
+    }
+	
+    
+    private HBox constructTimeSegment()
+    {
+    	//container to hold time segments
+		HBox timeSegments = new HBox();
+		//initialize segment dimensions
+		segmentHeight = naviBarHeight;
+		segmentWidth = Math.floor( (naviBarWidth - (2 * naviBarDefaultPadding)) / numberOfTicks );
+		segmentTickHeight = naviBarHeight / 3.0;
+		
+		javafx.scene.paint.Paint color = javafx.scene.paint.Paint.valueOf("36B541");
+		
+		//create a rectangle for each time segment and a line
+		//if the current time segment falls within the range which is in a loop, set color to the highlight color (red)
+		//for each time segment (numberOfTicks) add a set to a segment container
+		//stack the segments in a HBox container
+    	for(int i = 0; i < numberOfTicks; i++)
+		{
+			Pane segmentContainer = new Pane();			
+			
+			Rectangle segmentRec = new Rectangle(segmentWidth, segmentHeight);
+			javafx.scene.paint.Paint normalColor = color;
+			javafx.scene.paint.Paint loopColor = javafx.scene.paint.Paint.valueOf(LoopColor.B023A4.toString());
+			
+			//check if line num is in curr loop obj range
+			//refer to stored range, if new range is smaller, use new range, else move on to next loop obj
+			int loopStart = -1;
+			int loopEnd = 1;
+			javafx.scene.paint.Paint currentLoopColor = javafx.scene.paint.Paint.valueOf("36B541");
+			
+			
+			for(loopHighlighter loop : loopHighlightAry)
+			{
+				//initialize with normal bar color
+				javafx.scene.paint.Paint segmentColor = javafx.scene.paint.Paint.valueOf("36B541");
+				
+				if(i >= loop.getStart() && i <= loop.getEnd())
+				{
+					if(loopStart == -1 && loopEnd == -1)
+					{
+						loopStart = loop.getStart();
+						loopEnd = loop.getEnd();
+						segmentColor = javafx.scene.paint.Paint.valueOf(loop.getColor().toString());
+						//store the current loop color
+						currentLoopColor = segmentColor;
+					}
+					else
+					{
+						//if the new loop is within the current loop
+						if(loop.getStart() < loopStart && loop.getEnd() < loopEnd)
+						{
+							loopStart = loop.getStart();
+							loopEnd = loop.getEnd();
+							segmentColor = javafx.scene.paint.Paint.valueOf(loop.getColor().toString());
+							//store the current loop color
+							currentLoopColor = segmentColor;
+						}
+						else
+							segmentColor = currentLoopColor;
+					}
+				}
+
+				segmentRec.setFill(segmentColor);
+					
+			}
+			
+			//check if current time segment is in loop range
+//			if(i >= loopStart && i <= loopEnd)
+//				segmentRec.setFill(loopColor);
+//			else
+//				segmentRec.setFill(normalColor);
+			
+			Line segmentTick = new Line(1.0, segmentHeight, 1.0, segmentHeight - segmentTickHeight);
+			javafx.scene.paint.Paint naviBarTickColor = javafx.scene.paint.Paint.valueOf("FFFFFF");
+			segmentTick.setStroke(naviBarTickColor);
+			
+			segmentContainer.getChildren().addAll(segmentRec, segmentTick);
+			
+			timeSegments.getChildren().add(segmentContainer);
+		}
+    	
+    	return timeSegments;
+    }
+
+}

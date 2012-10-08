@@ -117,7 +117,7 @@ public class liveDebugging extends Application {
 		
 		
 		//adding 1st code window setting it as current
-		editor = new CodeWindow(path, 660, 345);
+		editor = new CodeWindow(path, 500, 345);
 		addDraggableElementToRoot(editor.getRootNode());
 		codeWindowAry.add(editor);
 		
