@@ -133,6 +133,21 @@ public class liveDebugging extends Application {
 		editor.getRootNode().relocate(20, 330);
 		codeWindowAry.add(editor);
 		
+		String script = "alert('sdf');" +
+//				"{" +
+				"var newdiv = document.createElement('div');" +
+//				"var divIdName = 'div1';" +
+//				"newdiv.setAttribute('id',divIdName);" +
+//				"newdiv.style.width = \"100px\";" +
+//						"newdiv.style.height = \"100px\";" +
+//								"newdiv.style.height = \"100px\";" +
+//								"newdiv.style.position = \"absolute\";" +
+//								"newdiv.style.background = \"#FF0000\";" +
+								"newdiv.innerHTML = 'this is 1st DIV';" +
+								"document.body.appendChild(newdiv);" ;
+//								"}";
+		editor.runScriptOnWebForm(script);
+		
 //--------------------------------------------------------------
 		//tick navigator
 
@@ -238,6 +253,7 @@ public class liveDebugging extends Application {
     {
     	Button nextBtn = (Button) getRootAnchorPane().lookup("#NextBtn");
         Button previousBtn = (Button) getRootAnchorPane().lookup("#PrevBtn");
+        Button tagBtn = (Button) getRootAnchorPane().lookup("#varTagSwitch");
         
     	nextBtn.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
@@ -255,7 +271,7 @@ public class liveDebugging extends Application {
 	            	//set tick navigator position
 	            	tickNavigator.moveTickNavigatorToCurrTick(currentNaviBar, currentCodeWindow);
 	            	
-	                System.out.println(currentCodeWindow.getCurrentExecutionLine());   
+	                System.out.println(currentCodeWindow.getCurrentExecutionLine());	                
         		}
             }
         });
@@ -305,6 +321,90 @@ public class liveDebugging extends Application {
         			tickNavigator.setTickNavigatorToNaviBar(currentNaviBar);
         			tickNavigator.moveTickNavigatorToCurrTick(currentNaviBar, currentCodeWindow);
      			
+        		}
+        	});
+        
+        tagBtn.setOnAction(new EventHandler<ActionEvent>() {
+        	@Override public void handle(ActionEvent e) 
+        		{
+        			//create div element and attatch to webview
+	        		String script = "" +
+	//        				"{" +
+	        				"var newdiv = document.createElement('div');" +
+	        				"var divIdName = 'div1';" +
+	        				"newdiv.setAttribute('id',divIdName);" +
+	        				"newdiv.style.width = \"100px\";" +
+	        						"newdiv.style.height = \"100px\";" +
+	//        								"newdiv.style.height = \"100px\";" +
+	        								"newdiv.style.position = \"absolute\";" +
+	        								"newdiv.style.background = \"#FF0000\";" +
+	        								"newdiv.innerHTML = 'this is 1st DIV';" +
+	        								"document.body.appendChild(newdiv);" ;
+	//        								"}";
+	                currentCodeWindow.runScriptOnWebForm(script);
+	                
+	                //testing set hover function
+	                String script2 = "function addTag(position)" +
+	        				"{" +
+	        				"var newdiv = document.createElement('div');" +
+	        				"var divIdName = 'div2';" +
+	        				"newdiv.setAttribute('id',divIdName);" +
+	        				"newdiv.style.width = \"100px\";" +
+	        						"newdiv.style.height = \"100px\";" +
+	//        								"newdiv.style.height = \"100px\";" +
+	        								"newdiv.style.position = \"absolute\";" +
+	        								"newdiv.style.background = \"#FFA500\";" +
+	        								"newdiv.innerHTML = 'this is 2nd DIV';" +
+	        								"document.body.appendChild(newdiv);" +
+//	        								"var position = $('#div1').position();" +
+	        								"$('#div2').offset({ top: position.top + 10, left: position.left + 10});" +
+	        								"}";
+	                currentCodeWindow.runScriptOnWebForm(script2);
+	                
+	                String script3 = "$('.cm-variable').hover(" +
+	                		"function () {" +
+	                		"var position = $(this).position();" +
+	                		"addTag(position);" +
+	                		"$(this).append($('<span> ***</span>'));" +
+	                				"}, " +
+	                				"function () {" +
+	                				"$(this).find('span:last').remove();" +
+	                						"}" +
+	                						");";
+	                
+	                String script4 = script2 + script3;
+//	                currentCodeWindow.runScriptOnWebForm(script4);
+	                
+	                //attach a div for each element with class cm-variable
+	                String script5 = "function addTag(position, varIdx)" +
+	        				"{" +
+	        				"var newdiv = document.createElement('div');" +
+	        				"var divIdName = 'div' + varIdx;" +
+	        				"newdiv.setAttribute('id',divIdName);" +
+	        				"newdiv.style.width = \"10px\";" +
+	        						"newdiv.style.height = \"10px\";" +
+//	        						"newdiv.style.top = position.top;" +
+//	        						"newdiv.style.left = position.left;" +
+	//        								"newdiv.style.height = \"100px\";" +
+	        								"newdiv.style.position = \"absolute\";" +
+	        								"newdiv.style.background = \"#FFA500\";" +
+	        								"newdiv.innerHTML = '5';" +
+	        								"document.body.appendChild(newdiv);" +
+	        								"return newdiv;" +
+//	        								"var position = $('#div1').position();" +
+//	        								"$('#div'+ varIdx).offset({ top: position.top + 10, left: position.left + 10});" +
+	        								"}";
+	                
+	                String script6 = "var varIdx = 1; $('.cm-variable').each(" +
+	                		"function(){" +
+	                		"var position = $(this).position();" +
+	                		"var tag = addTag(position, varIdx);" +
+	                		"$(this).append(tag);" +
+	                		"$('#div'+ varIdx).offset({ top: position.top + 5, left: position.left + 35});" +
+	                		"varIdx += 1;" +
+	                		"});" ;
+	                
+	                currentCodeWindow.runScriptOnWebForm(script5 + script6);
         		}
         	});
         

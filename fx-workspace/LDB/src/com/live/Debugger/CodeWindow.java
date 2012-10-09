@@ -98,6 +98,12 @@ public class CodeWindow {
 		editor.webview.getEngine().executeScript("editor.setLineClass(" + String.valueOf(lineNum) + ", null, 'newLine');");
 	}
 	
+	//execute script on editor webview
+	public void runScriptOnWebForm(String _script)
+	{
+		editor.webview.getEngine().executeScript(_script);
+	}
+	
 	//return current execution line
 	public int getCurrentExecutionLine()
 	{

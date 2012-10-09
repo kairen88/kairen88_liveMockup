@@ -4,6 +4,7 @@
 		<link rel="stylesheet" href="http://codemirror.net/lib/codemirror.css">  
 		<script src="http://codemirror.net/lib/codemirror.js"></script>  
 		<script src="http://codemirror.net/mode/clike/clike.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>	
 	</head>
 	
 	<body>
@@ -11,6 +12,7 @@
 			.completedLine {background-color:#98FB98 !important;} 
 			.currentLine {background-color:#FFFF99 !important;}
 			.newLine {background-color:#ECC3BF !important;}
+			.cm-variable {background-color:#ECC3BF !important;}
 		</style>
 	
 		<form>
