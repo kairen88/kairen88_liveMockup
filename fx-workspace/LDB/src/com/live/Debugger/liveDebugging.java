@@ -327,87 +327,47 @@ public class liveDebugging extends Application {
         tagBtn.setOnAction(new EventHandler<ActionEvent>() {
         	@Override public void handle(ActionEvent e) 
         		{
-        			//create div element and attatch to webview
-	        		String script = "" +
-	//        				"{" +
-	        				"var newdiv = document.createElement('div');" +
-	        				"var divIdName = 'div1';" +
-	        				"newdiv.setAttribute('id',divIdName);" +
-	        				"newdiv.style.width = \"100px\";" +
-	        						"newdiv.style.height = \"100px\";" +
-	//        								"newdiv.style.height = \"100px\";" +
-	        								"newdiv.style.position = \"absolute\";" +
-	        								"newdiv.style.background = \"#FF0000\";" +
-	        								"newdiv.innerHTML = 'this is 1st DIV';" +
-	        								"document.body.appendChild(newdiv);" ;
-	//        								"}";
-	                currentCodeWindow.runScriptOnWebForm(script);
+        			
 	                
-	                //testing set hover function
-	                String script2 = "function addTag(position)" +
-	        				"{" +
-	        				"var newdiv = document.createElement('div');" +
-	        				"var divIdName = 'div2';" +
-	        				"newdiv.setAttribute('id',divIdName);" +
-	        				"newdiv.style.width = \"100px\";" +
-	        						"newdiv.style.height = \"100px\";" +
-	//        								"newdiv.style.height = \"100px\";" +
-	        								"newdiv.style.position = \"absolute\";" +
-	        								"newdiv.style.background = \"#FFA500\";" +
-	        								"newdiv.innerHTML = 'this is 2nd DIV';" +
-	        								"document.body.appendChild(newdiv);" +
-//	        								"var position = $('#div1').position();" +
-	        								"$('#div2').offset({ top: position.top + 10, left: position.left + 10});" +
-	        								"}";
-	                currentCodeWindow.runScriptOnWebForm(script2);
-	                
-	                String script3 = "$('.cm-variable').hover(" +
-	                		"function () {" +
-	                		"var position = $(this).position();" +
-	                		"addTag(position);" +
-	                		"$(this).append($('<span> ***</span>'));" +
-	                				"}, " +
-	                				"function () {" +
-	                				"$(this).find('span:last').remove();" +
-	                						"}" +
-	                						");";
-	                
-	                String script4 = script2 + script3;
-//	                currentCodeWindow.runScriptOnWebForm(script4);
-	                
-	                //attach a div for each element with class cm-variable
-	                String script5 = "function addTag(position, varIdx)" +
-	        				"{" +
-	        				"var newdiv = document.createElement('div');" +
-	        				"var divIdName = 'div' + varIdx;" +
-	        				"newdiv.setAttribute('id',divIdName);" +
-	        				"newdiv.style.width = \"10px\";" +
-	        						"newdiv.style.height = \"10px\";" +
-//	        						"newdiv.style.top = position.top;" +
-//	        						"newdiv.style.left = position.left;" +
-	//        								"newdiv.style.height = \"100px\";" +
-	        								"newdiv.style.position = \"absolute\";" +
-	        								"newdiv.style.background = \"#FFA500\";" +
-	        								"newdiv.innerHTML = '5';" +
-	        								"document.body.appendChild(newdiv);" +
-	        								"return newdiv;" +
-//	        								"var position = $('#div1').position();" +
-//	        								"$('#div'+ varIdx).offset({ top: position.top + 10, left: position.left + 10});" +
-	        								"}";
-	                
-	                String script6 = "var varIdx = 1; $('.cm-variable').each(" +
-	                		"function(){" +
-	                		"var position = $(this).position();" +
-	                		"var tag = addTag(position, varIdx);" +
-	                		"$(this).append(tag);" +
-	                		"$('#div'+ varIdx).offset({ top: position.top + 5, left: position.left + 35});" +
-	                		"varIdx += 1;" +
-	                		"});" ;
-	                
-	                currentCodeWindow.runScriptOnWebForm(script5 + script6);
+	              
+//                	String scriptStr = readFileReturnString("resource\\js\\create&InsertDivElement.txt");
+//                	String scriptStr = readFileReturnString("resource\\js\\testingHoverFunction.txt");
+//					String scriptStr = readFileReturnString("resource\\js\\attachTagToVariable.txt");
+        			String scriptStr = readFileReturnString("resource\\js\\testScript.js");
+					currentCodeWindow.runScriptOnWebForm(scriptStr);
         		}
         	});
         
+    }
+    
+    private String readFileReturnString(String _path)
+    {
+    	String fileStr = "";
+    	
+    	try{
+  		  // Open the file that is the first command line parameter
+  		  FileInputStream fstream = new FileInputStream(_path);
+  		  // Get the object of DataInputStream
+  		  DataInputStream in = new DataInputStream(fstream);
+  		  BufferedReader br = new BufferedReader(new InputStreamReader(in));
+  		  String strLine;
+  		  //Read File Line By Line
+  		  while ((strLine = br.readLine()) != null)   
+  		  {
+  			  //check to ignor comments
+  			  if(!strLine.contains("//"))
+      		  //append to string obj template
+  				  fileStr += strLine;
+  		  }
+  		  //Close the input stream
+  		  in.close();
+
+  	    }catch (Exception e)
+  	    {
+  	    	//Catch exception if any
+  	    	System.err.println("Error: " + e.getMessage());
+  	    }
+    	return fileStr;
     }
     
 	
