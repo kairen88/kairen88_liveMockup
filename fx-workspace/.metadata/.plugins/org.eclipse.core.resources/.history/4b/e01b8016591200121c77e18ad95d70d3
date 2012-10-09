@@ -8,11 +8,8 @@ newdiv.style.position = "absolute";
 newdiv.style.background = "#FF0000";
 newdiv.innerHTML = 'this is 1st DIV';
 newdiv.setAttribute('onClick', function(){$(this).css({height: '200px', width: '200px'});});
-
-newdiv.onclick = function(){ newdiv.style.width = "1000px";
-newdiv.style.height = "1000px"; };
-
-// document.body.appendChild(newdiv);
+$('#div1').click(function(){$('#div1').css('width', '200px');});
+document.body.appendChild(newdiv);
 
 
 
@@ -51,16 +48,13 @@ function addTag(position, varIdx)
 	var divIdName = 'div' + varIdx;
 	newdiv.setAttribute('id',divIdName);
 	newdiv.setAttribute('class', 'tag');
-	newdiv.style.width = "10px";
-	newdiv.style.height = "10px";
+	newdiv.style.width = "40px";
+	newdiv.style.height = "40px";
 	newdiv.style.position = "absolute";
 	newdiv.style.background = "#FFA500";
 	newdiv.innerHTML = '5';
 	
-	newdiv.onclick = function(){ 
-			newdiv.style.width = "100px";
-			newdiv.style.height = "100px"; 
-		};
+	newdiv.setAttribute('onclick', function(){$('#div' + varIdx).css({height: '100px', width: '100px'});});
 	
 	document.body.appendChild(newdiv);
 	
@@ -88,8 +82,8 @@ $('.tag').hover(function () {
 });
 
 //
-function expandTag()
+function expandTag(tag)
 {
-	tag.style.width = "1000px";
-	tag.style.height = "1000px";
+	tag.style.width = "100px";
+	tag.style.height = "100px";
 }

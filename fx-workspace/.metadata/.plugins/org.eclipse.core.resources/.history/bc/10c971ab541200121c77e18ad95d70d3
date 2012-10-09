@@ -327,6 +327,9 @@ public class liveDebugging extends Application {
         tagBtn.setOnAction(new EventHandler<ActionEvent>() {
         	@Override public void handle(ActionEvent e) 
         		{
+        			
+	                
+	              
 //                	String scriptStr = readFileReturnString("resource\\js\\create&InsertDivElement.txt");
 //                	String scriptStr = readFileReturnString("resource\\js\\testingHoverFunction.txt");
 //					String scriptStr = readFileReturnString("resource\\js\\attachTagToVariable.txt");

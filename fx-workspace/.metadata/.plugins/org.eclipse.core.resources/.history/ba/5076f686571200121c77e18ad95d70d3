@@ -26,8 +26,7 @@
 		var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
 		    lineNumbers: true,
 		    matchBrackets: true,    
-		    mode: "text/x-java",
-		    readOnly: true  
+		    mode: "text/x-java"  
 		    });
 		
 		</script>
