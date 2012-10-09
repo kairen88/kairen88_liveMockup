@@ -6,11 +6,13 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.paint.*?>
 
-<AnchorPane fx:id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="655.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.live.Debugger.Controller">
+<AnchorPane fx:id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0000999999975" prefWidth="900.0000999999975" xmlns:fx="http://javafx.com/fxml" fx:controller="com.live.Debugger.Controller">
   <children>
-    <Label fx:id="label" layoutX="437.0" layoutY="37.0" prefHeight="34.0" prefWidth="141.0" text="Label" />
-    <Button fx:id="button" layoutX="480.0" layoutY="16.0" mnemonicParsing="false" onAction="#clicked" text="Toggle" />
-    <Button fx:id="PrevBtn" layoutX="465.0" layoutY="341.0" mnemonicParsing="false" text="Prev" />
-    <Button fx:id="NextBtn" layoutX="520.0" layoutY="341.0" mnemonicParsing="false" text="Next" />
+    <Label fx:id="label" layoutX="715.0" layoutY="14.0" prefHeight="34.0" prefWidth="141.0" text="Label" />
+    <Button fx:id="button" layoutX="812.0" layoutY="61.0" mnemonicParsing="false" onAction="#clicked" text="Toggle" />
+    <Button fx:id="PrevBtn" layoutX="694.0" layoutY="61.0" mnemonicParsing="false" text="Prev" />
+    <Button fx:id="NextBtn" layoutX="751.0" layoutY="61.0" mnemonicParsing="false" text="Next" />
+    <Pane fx:id="codeWindowSection" layoutX="14.0" layoutY="14.0" prefHeight="672.0001220703125" prefWidth="636.0" style="-fx-background-color:#F9FCAC;" />
+    <Pane fx:id="naviBarSection" layoutX="663.0" layoutY="165.0" prefHeight="307.0" prefWidth="220.0" style="-fx-background-color:#ACD9FC;" />
   </children>
 </AnchorPane>

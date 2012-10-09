@@ -66,32 +66,16 @@ public class NavigationBar {
 		public LoopColor getColor() { return loopColor; }
 	}
 	
-    public NavigationBar() 
+	//takes in an ary of loop objects denoting loops in the code
+	//set to null if no loop in code segement
+    public NavigationBar(CodeLoop [] loopAry) 
     {
     	//initialize loop highlighter
     	loopHighlightAry = new ArrayList<loopHighlighter>(); 
     	
-    	//test setting here
-//    	setLoopHighlight(2, 25);
-//    	setLoopHighlight(4, 20);
-//    	setLoopHighlight(7, 14);
-//    	setLoopHighlight(16, 19);
-//    	setLoopHighlight(13, 14);
-//    	
-//    	setLoopHighlight(28, 30);
-    	
-    	loop lop1 = new loop(2, 25);
-    	loop lop2 = new loop(4, 20);
-    	loop lop3 = new loop(7, 14);
-    	loop lop4 = new loop(16, 19);
-    	loop lop5 = new loop(13, 14);
-    	loop lop6 = new loop(28, 30);
-    	
-    	loop[] loopAry = {lop3, lop2, lop4, lop1, lop5, lop6};
-    	sortLoopAry(loopAry);
-    	
-    	for(loop lop : loopAry)
-    		setLoopHighlight(lop.getStart(), lop.getEnd());
+    	//check if loopAry is null, then set loop
+    	if(loopAry != null)
+    		setLoopAry(loopAry);
     	
     	//creating navi bar background
     	Rectangle barBackground = new Rectangle(naviBarWidth, naviBarHeight);
@@ -264,10 +248,19 @@ public class NavigationBar {
     	return timeSegments;
     }
     
-    private void sortLoopAry(loop[] _loopAry)
+    //sorts the arry of loop objects then set the color for each
+    private void setLoopAry(CodeLoop[] loopAry)
+    {
+    	sortLoopAry(loopAry);
+    	
+    	for(CodeLoop  lop : loopAry)
+    		setLoopHighlight(lop.getStart(), lop.getEnd());
+    }
+    
+    private void sortLoopAry(CodeLoop [] _loopAry)
     {
     	//key element being sorted
-    	loop key;
+    	CodeLoop key;
     	
     	for(int i = 1; i < _loopAry.length; i++)
     	{
