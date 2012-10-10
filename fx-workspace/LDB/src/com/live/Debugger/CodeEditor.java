@@ -25,8 +25,51 @@ public class CodeEditor extends StackPane {
 
   /** applies the editing template to the editing code to create the html+javascript source for a code editor. */
   private String applyEditingTemplate() {
-//    return editingTemplate.replace("${code}", editingCode);
     return editingTemplate.replace("${code}", editingCode);
+//	  String temp = editingTemplate.replace("${code}", editingCode);
+//	  
+//	  String jquery = loadExternalResource();
+//	  temp = temp.replace("${jquery}", jquery);
+//	  System.out.println(temp);
+//    return temp;
+  }
+  
+  /** loads external resources from file and returns a string */
+  private String loadExternalResource(String resourcePath) {
+	  
+	  String extResource = "";
+	  try{
+		  // Open the file that is the first command line parameter
+		  FileInputStream fstream = new FileInputStream(resourcePath);
+		  // Get the object of DataInputStream
+		  DataInputStream in = new DataInputStream(fstream);
+		  BufferedReader br = new BufferedReader(new InputStreamReader(in));
+		  String strLine;
+		  //Read File Line By Line
+		  while ((strLine = br.readLine()) != null)   
+		  {
+    		  //append to string
+			  extResource += strLine;
+		  }
+		  //Close the input stream
+		  in.close();
+
+	    }catch (Exception e)
+	    {
+	    	//Catch exception if any
+	    	System.err.println("Error: " + e.getMessage());
+	    }
+	  
+	  return extResource;
+  }
+  
+  /** applies external resouces by replacing the string*/
+  private void addExternalResource(String resourcePath, String placeHolder) {
+	  String resource = loadExternalResource(resourcePath);
+	  //replace placeholder with resource
+	  editingTemplate = editingTemplate.replace(placeHolder, resource);
+//	  System.out.println(res);
+//    return editingTemplate;
   }
   
   /** reads in template file and stores it in string var */
@@ -80,7 +123,8 @@ public class CodeEditor extends StackPane {
     this.editingCode = editingCode;
 
     //loads the template from template.xml into string obj
-    loadTemplate();
+//    loadTemplate();
+    editingTemplate = loadExternalResource("resource\\template.xml");
     
 //    //loads resources required by the template
 //    URL urlHello = this.getClass().getResource("codemirror.css");
@@ -89,9 +133,17 @@ public class CodeEditor extends StackPane {
     
     webview.setPrefSize(width, height);
     webview.setMinSize(width, height);
+    //adding external resources
+//    webview.getEngine().loadContent(addExternalResource());
+    addExternalResource("resource\\css\\codemirror.css", "${codemirror.css}");
+    addExternalResource("resource\\js\\codemirror.js", "${codemirror.js}");
+    addExternalResource("resource\\js\\clike.js", "${clike}");
+    addExternalResource("resource\\js\\jquery.js", "${jquery}");
     webview.getEngine().loadContent(applyEditingTemplate());
 //    webview.getEngine().executeScript("editor.setLineClass(3, null,\"test\")");
 
     this.getChildren().add(webview);
+    
+//    System.out.println(webview.getEngine().);
   }
 }

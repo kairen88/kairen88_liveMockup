@@ -69,7 +69,7 @@ public class ResourceUtils
 	
 	public static BufferedImage loadBufferedImage(Class aReferenceClass, String aName)
 	{
-		InputStream theStream = aReferenceClass.getResourceAsStream (aName);
+		InputStream theStream = aReferenceClass.getResourceAsStream ("D:\\Work\\FYP\\FYP-LB\\code\\kairen88_liveMockup\\fx-workspace\\TOD\\resources\\tod\\gui\\forwardStepInto.png");
 		if (theStream == null) throw new RuntimeException("Cannot find resource: "+aName);
 		try
 		{

@@ -113,7 +113,7 @@ public class liveDebugging extends Application {
 //		//testing out codemirror code editor
 		codeWindowAry = new ArrayList<CodeWindow>();
 		
-		Path path = FileSystems.getDefault().getPath("resource", "textfile.txt");
+		Path path = FileSystems.getDefault().getPath("resource", "sampleJs.txt");
 		
 		Pane codeWindowSection = (Pane) getRootAnchorPane().lookup("#codeWindowSection");
 		
