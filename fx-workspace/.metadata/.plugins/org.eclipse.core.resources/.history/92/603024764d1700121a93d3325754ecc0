@@ -1,0 +1,19 @@
+package com.test.tod;
+
+public class HaloWorld {
+
+	public static void main(String[] args)
+	{
+		System.out.println("halo world");
+		
+		int x = add10(5) + 64 * 93;
+		
+		System.out.println("halo world");
+	}
+	
+	private static int add10(int value)
+	{
+		int a = value + 10;
+		return a;
+	}
+}

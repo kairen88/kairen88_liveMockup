@@ -48,8 +48,9 @@ public class CodeEditor extends StackPane {
 		  //Read File Line By Line
 		  while ((strLine = br.readLine()) != null)   
 		  {
+			  if(!strLine.contains("////"))
     		  //append to string
-			  extResource += strLine;
+			  extResource += strLine + '\n';
 		  }
 		  //Close the input stream
 		  in.close();
@@ -126,19 +127,15 @@ public class CodeEditor extends StackPane {
 //    loadTemplate();
     editingTemplate = loadExternalResource("resource\\template.xml");
     
-//    //loads resources required by the template
-//    URL urlHello = this.getClass().getResource("codemirror.css");
-//    webview.getEngine()
-//    .load(urlHello.toExternalForm());
-    
     webview.setPrefSize(width, height);
     webview.setMinSize(width, height);
+    
     //adding external resources
-//    webview.getEngine().loadContent(addExternalResource());
-    addExternalResource("resource\\css\\codemirror.css", "${codemirror.css}");
-    addExternalResource("resource\\js\\codemirror.js", "${codemirror.js}");
-    addExternalResource("resource\\js\\clike.js", "${clike}");
     addExternalResource("resource\\js\\jquery.js", "${jquery}");
+    addExternalResource("resource\\js\\modeJavaScript.js", "${mode}");
+    addExternalResource("resource\\js\\codemirror.js", "${codemirror}");
+    addExternalResource("resource\\css\\codemirror.css", "${codemirrorCss}");
+    
     webview.getEngine().loadContent(applyEditingTemplate());
 //    webview.getEngine().executeScript("editor.setLineClass(3, null,\"test\")");
 

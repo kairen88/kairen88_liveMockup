@@ -1,0 +1,13 @@
+package com.test.tod;
+
+public class HaloWorld {
+
+	public static void main(String[] args)
+	{
+		System.out.println("halo world");
+		
+		int x = 25 + 64 * 93;
+		
+		System.out.println("halo world");
+	}
+}

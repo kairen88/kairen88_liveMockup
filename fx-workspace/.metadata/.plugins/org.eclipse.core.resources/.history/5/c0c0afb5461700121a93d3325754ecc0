@@ -1,0 +1,36 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CodeMirror: Autocomplete Demo</title>
+    <link rel="stylesheet" href="http://codemirror.net/lib/codemirror.css">
+    <script src="http://codemirror.net/lib/codemirror.js"></script>
+    <script src="http://codemirror.net/lib/util/simple-hint.js"></script>
+    <link rel="stylesheet" href="http://codemirror.net/lib/util/simple-hint.css">
+    <script src="http://codemirror.net/lib/util/javascript-hint.js"></script>
+    <script src="http://codemirror.net/mode/javascript/javascript.js"></script>
+    <link rel="stylesheet" href="http://codemirror.net/doc/docs.css">
+    <style type="text/css"> .CodeMirror-scroll { height: 100%} #code { width: 100% }</style>
+    
+    <script>      
+      var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+        lineNumbers: true,
+        matchBrackets: true,
+        readOnly: true 
+      });
+    </script>
+    
+  </head>
+  <body>
+    <form><textarea id="code" name="code"> ${code} </textarea></form>
+
+    <script>      
+      var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+        lineNumbers: true,
+        matchBrackets: true,
+        readOnly: true 
+      });
+    </script>
+  </body>
+</html>​

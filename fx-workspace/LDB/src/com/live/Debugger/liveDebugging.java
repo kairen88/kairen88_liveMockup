@@ -116,11 +116,12 @@ public class liveDebugging extends Application {
 		Path path = FileSystems.getDefault().getPath("resource", "sampleJs.txt");
 		
 		Pane codeWindowSection = (Pane) getRootAnchorPane().lookup("#codeWindowSection");
+		Pane codeWindowArea = new Pane();
 		
 		//adding 1st code window setting it as current
 		CodeWindow editor = new CodeWindow(path, 600, 300);
 //		addDraggableElementToRoot(editor.getRootNode());
-		codeWindowSection.getChildren().add(editor.getRootNode());
+		codeWindowArea.getChildren().add(editor.getRootNode());
 		editor.getRootNode().relocate(20, 20);
 		codeWindowAry.add(editor);
 		
@@ -129,24 +130,14 @@ public class liveDebugging extends Application {
 //		adding 2nd code window to ary, setting code window below min width and height
 		editor = new CodeWindow(editingCode, 200, 150);
 //		addDraggableElementToRoot(editor.getRootNode());
-		codeWindowSection.getChildren().add(editor.getRootNode());
+		codeWindowArea.getChildren().add(editor.getRootNode());
 		editor.getRootNode().relocate(20, 330);
 		codeWindowAry.add(editor);
 		
-		String script = "alert('sdf');" +
-//				"{" +
-				"var newdiv = document.createElement('div');" +
-//				"var divIdName = 'div1';" +
-//				"newdiv.setAttribute('id',divIdName);" +
-//				"newdiv.style.width = \"100px\";" +
-//						"newdiv.style.height = \"100px\";" +
-//								"newdiv.style.height = \"100px\";" +
-//								"newdiv.style.position = \"absolute\";" +
-//								"newdiv.style.background = \"#FF0000\";" +
-								"newdiv.innerHTML = 'this is 1st DIV';" +
-								"document.body.appendChild(newdiv);" ;
-//								"}";
-		editor.runScriptOnWebForm(script);
+		Rectangle codeWindowSectionMask = new Rectangle(680, 485);
+		codeWindowArea.setClip(codeWindowSectionMask);
+		
+		codeWindowSection.getChildren().add(codeWindowArea);
 		
 //--------------------------------------------------------------
 		//tick navigator

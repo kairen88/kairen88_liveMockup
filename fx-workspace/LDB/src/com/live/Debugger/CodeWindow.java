@@ -178,20 +178,13 @@ public class CodeWindow {
 		//creating code window background
 		Rectangle codeWindowBackground = createCodeWindowBackground();
 		
-		//stack pane to stack elements in code window
-		codeWindowSP = new StackPane();
-
-		Pane eidtorPane = new Pane();
-		eidtorPane.getChildren().add(editor);
-		
 		//positioning editor with padding
 		editor.relocate(padding, padding + paddingTop);
 
-		codeWindowSP.getChildren().add(codeWindowBackground);
-		codeWindowSP.getChildren().add(eidtorPane);
-		
-		//add stack pane to root draggable node
-		codeWindowContainer.getChildren().add(codeWindowSP);
+		//add code window to root draggable node
+		codeWindowContainer.getChildren().add(codeWindowBackground);
+		codeWindowContainer.getChildren().add(editor);
+
 	}
 	
 	private String getCodeFromFile(Path _editingCodePath)

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/testTOD/src/com/test/tod/HaloWorld.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/CDC-1.0%Foundation-1.0"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.test.tod.HaloWorld"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="testTOD"/>
+<mapAttribute key="tod.plugin.launch.OPTIONS_MAP">
+<mapEntry key="agent-cache-path" value="C:\Users\Kairen\tmp\tod"/>
+<mapEntry key="agent-captureExceptions" value="true"/>
+<mapEntry key="agent-skipCoreClasses" value="true"/>
+<mapEntry key="agent-verbose" value="0"/>
+<mapEntry key="bci-preload-classes" value="true"/>
+<mapEntry key="capture-at-start" value="true"/>
+<mapEntry key="client-name" value="tod-1"/>
+<mapEntry key="collector-host" value="localhost"/>
+<mapEntry key="collector-port" value="8058"/>
+<mapEntry key="db-autoflush-delay" value="2"/>
+<mapEntry key="db-process-timeout" value="30"/>
+<mapEntry key="db-raw-events-dir" value="C:\Users\Kairen\tmp\tod"/>
+<mapEntry key="db-twophases" value="false"/>
+<mapEntry key="index-strings" value="false"/>
+<mapEntry key="instrumenter-classesDir" value=""/>
+<mapEntry key="localSessionHeap" value="268435456"/>
+<mapEntry key="master-timeout" value="0"/>
+<mapEntry key="scope-globalFilter" value="[-tod.agent.**]"/>
+<mapEntry key="server-type" value="tod.core.server.JavaTODServerFactory"/>
+<mapEntry key="session-type" value="local"/>
+<mapEntry key="structure-db-loc" value="C:\Users\Kairen/tmp/tod/locations"/>
+<mapEntry key="trace-filter" value="[-java.** -javax.** -sun.** -com.sun.** -org.ietf.jgss.** -org.omg.** -org.w3c.** -org.xml.**]"/>
+<mapEntry key="with-aspects" value="false"/>
+<mapEntry key="with-bytecode" value="true"/>
+</mapAttribute>
+</launchConfiguration>

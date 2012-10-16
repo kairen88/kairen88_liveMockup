@@ -1,34 +1,38 @@
+
 <!doctype html>
 <html>
-	<head>  
-		<link rel="stylesheet" href="http://codemirror.net/lib/codemirror.css">  
-		<script src="http://codemirror.net/lib/codemirror.js"></script>  
-		<script src="http://codemirror.net/mode/clike/clike.js"></script>
-		<script>${jquery}</script>	
-	</head>
-	
-	<body>
-		<style type="text/css"> 
-			.completedLine {background-color:#98FB98 !important;} 
-			.currentLine {background-color:#FFFF99 !important;}
-			.newLine {background-color:#ECC3BF !important;}
-		</style>
-	
-		<form>
-			<textarea id="code" name="code">
-			${code}
-			</textarea>
-		</form>
-	
-		<script>  
-		
-		var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
-		    lineNumbers: true,
-		    matchBrackets: true,    
-		    mode: "text/x-java",
-		    readOnly: true  
-		    });
-		
-		</script>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <style type="text/css">${codemirrorCss}</style>
+    <script>${codemirror}</script>
+    <script>${mode}</script>
+    <style type="text/css"> 
+    	.CodeMirror-scroll { height: 100%; } 
+    	.CodeMirror { width: 120% ;}
+    	.completedLine {background-color:#98FB98 !important;} 
+		.currentLine {background-color:#FFFF99 !important;}
+		.newLine {background-color:#ECC3BF !important;}
+		.cm-variable-2 {background-color:#ECC3BF !important;}
+	</style>
+    <script>${jquery}</script>	
+    <script>      
+      var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+        lineNumbers: true,
+        matchBrackets: true,
+        readOnly: true 
+      });
+    </script>
+    
+  </head>
+  <body>
+    <form><textarea id="code" name="code"> ${code} </textarea></form>
+
+    <script>      
+      var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+        lineNumbers: true,
+        matchBrackets: true,
+        readOnly: true 
+      });
+    </script>
+  </body>
 </html>

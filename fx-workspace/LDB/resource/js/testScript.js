@@ -73,7 +73,8 @@ $('.cm-variable').each(function(){
 	var position = $(this).position();
 	var tag = addTag(position, varIdx);
 	$(this).append(tag);
-	$('#div'+ varIdx).offset({ top: position.top + 5, left: position.left + 35});varIdx += 1;
+	$('#div'+ varIdx).offset({ top: position.top + 5, left: position.left + 35});
+	varIdx += 1;
 });
 
 //set hover on tags
@@ -93,3 +94,36 @@ function expandTag()
 	tag.style.width = "1000px";
 	tag.style.height = "1000px";
 }
+
+//create a div to highlight expressions
+function createExpBoarder(length)
+{
+	var newdiv = document.createElement('div');
+	var divIdName = 'expBoarder';
+	newdiv.setAttribute('id',divIdName);
+	newdiv.setAttribute('class', 'expBoarder');
+	newdiv.style.width = length + "px";
+	newdiv.style.height = "10px";
+	newdiv.style.position = "absolute";
+	newdiv.style.background = "#FFA500";
+	
+	
+	//document.body.appendChild(newdiv);
+	
+	return newdiv;
+}
+
+//append expression boarder to current line
+
+//$('.currentLine, .cm-variable-2').find(':contains("str")').append(expBrd);
+//$('.currentLine').children().append(createExpBoarder(position, 30));
+
+var expBrd = createExpBoarder(30);
+
+$('.currentLine').find('span').each (function() {
+
+$(this).append(expBrd); 
+
+
+});
+

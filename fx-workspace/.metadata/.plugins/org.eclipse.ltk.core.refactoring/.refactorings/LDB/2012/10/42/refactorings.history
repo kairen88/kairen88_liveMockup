@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;forwardStepInto.png&apos; to &apos;TOD/src/tod.gui&apos;&#x0D;&#x0A;- Original project: &apos;LDB&apos;&#x0D;&#x0A;- Destination element: &apos;TOD/src/tod.gui&apos;&#x0D;&#x0A;- Original element: &apos;forwardStepInto.png&apos;" description="Copy file" destination="=TOD/src&lt;tod.gui" element1="forwardStepInto.png" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1350330920818" units="0" version="1.0"/>
+</session>
